@@ -9,7 +9,7 @@
     "closed_trade_count": 10,
     "open_trade_count": 3,
     "funding_7d": 0.10289646999999999,
-    "projected_apr_pct": 11.753337104312259,
+    "projected_apr_pct": 11.74261059567471,
     "operating_days": 5,
     "round_trip_fee_pct": 0.246
   },
@@ -400,7 +400,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-03-31T11:26:24.393830+00:00",
+    "generated_at": "2026-03-31T11:28:28.859005+00:00",
     "version": "1.1.0"
   }
 }
