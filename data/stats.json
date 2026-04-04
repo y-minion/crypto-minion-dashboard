@@ -1,16 +1,16 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 0.22025091,
+    "total_funding_income": 0.29893263,
     "total_fees_paid": 0.085244544,
     "estimated_slippage": 0.0,
     "total_trade_pnl": -0.085244544,
-    "net_profit": 0.135006366,
+    "net_profit": 0.21368808599999997,
     "closed_trade_count": 10,
     "open_trade_count": 3,
-    "funding_7d": 0.20773028999999998,
-    "projected_apr_pct": 0.40229608068382655,
-    "operating_days": 7,
+    "funding_7d": 0.28008316,
+    "projected_apr_pct": 7.014600773251595,
+    "operating_days": 8,
     "round_trip_fee_pct": 0.246
   },
   "daily_series": [
@@ -80,11 +80,19 @@
     },
     {
       "date": "2026-04-03",
-      "funding_income": 0.00732517,
+      "funding_income": 0.06822787,
       "trade_pnl": 0.0,
       "fees_paid": 0.0,
-      "net": 0.00732517,
-      "cumulative_net": 0.135006366
+      "net": 0.06822787,
+      "cumulative_net": 0.195909066
+    },
+    {
+      "date": "2026-04-04",
+      "funding_income": 0.01777902,
+      "trade_pnl": 0.0,
+      "fees_paid": 0.0,
+      "net": 0.01777902,
+      "cumulative_net": 0.213688086
     }
   ],
   "open_positions": [
@@ -96,7 +104,7 @@
       "futures_price": 8.74,
       "position_value_usdt": 91.77,
       "funding_rate_at_entry_pct": 0.008747,
-      "hold_hours": 140.1,
+      "hold_hours": 164.2,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-03-28 03:52:53"
     },
@@ -108,7 +116,7 @@
       "futures_price": 0.09263,
       "position_value_usdt": 36.86674,
       "funding_rate_at_entry_pct": 0.00937,
-      "hold_hours": 126.3,
+      "hold_hours": 150.4,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-03-28 17:39:41"
     },
@@ -120,12 +128,132 @@
       "futures_price": 2047.66,
       "position_value_usdt": 61.4298,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 89.2,
+      "hold_hours": 113.3,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-03-30 06:45:57"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "9c86ea72-62b9-43bb-904b-8ca34e508f0e",
+      "symbol": "ETHUSDT",
+      "funding_rate_pct": 0.0,
+      "income": -0.00211121,
+      "position_size": 0.03,
+      "recorded_at": "2026-04-04 00:02:44"
+    },
+    {
+      "tran_id": "2c941125-9623-40c1-9e57-16bf862a0d2d",
+      "symbol": "AVAXUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00935445,
+      "position_size": 10.5,
+      "recorded_at": "2026-04-04 00:02:43"
+    },
+    {
+      "tran_id": "83b9b56e-c11f-416d-ab63-14bd499a4daa",
+      "symbol": "DOGEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00364249,
+      "position_size": 398.0,
+      "recorded_at": "2026-04-04 00:02:43"
+    },
+    {
+      "tran_id": "d61f813c-01d5-461c-af52-9c603a2c728b",
+      "symbol": "B3USDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00689329,
+      "position_size": 0.0,
+      "recorded_at": "2026-04-04 00:02:41"
+    },
+    {
+      "tran_id": "ad41ff7c-5885-4b0d-968b-a3ff4faffc7f",
+      "symbol": "B3USDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00685735,
+      "position_size": 0.0,
+      "recorded_at": "2026-04-03 20:01:38"
+    },
+    {
+      "tran_id": "175014b2-8a7a-4ab4-a45f-685595d28248",
+      "symbol": "ETHUSDT",
+      "funding_rate_pct": 0.0,
+      "income": -0.00305919,
+      "position_size": 0.03,
+      "recorded_at": "2026-04-03 16:00:26"
+    },
+    {
+      "tran_id": "abe57eba-d342-4bd4-87e0-54eb9dc3f8ef",
+      "symbol": "AVAXUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00946155,
+      "position_size": 10.5,
+      "recorded_at": "2026-04-03 16:00:25"
+    },
+    {
+      "tran_id": "89488b8d-03e8-4bd3-b9f3-a534152e98d8",
+      "symbol": "DOGEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.0036409,
+      "position_size": 398.0,
+      "recorded_at": "2026-04-03 16:00:25"
+    },
+    {
+      "tran_id": "9d914a4e-a0b3-4329-b3b6-dc0fb5da531b",
+      "symbol": "B3USDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00683339,
+      "position_size": 0.0,
+      "recorded_at": "2026-04-03 16:00:24"
+    },
+    {
+      "tran_id": "5fc2afc8-4f38-46a9-bced-13704ee57d30",
+      "symbol": "B3USDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00708976,
+      "position_size": 0.0,
+      "recorded_at": "2026-04-03 12:04:19"
+    },
+    {
+      "tran_id": "b9391a5a-ba05-4d41-94c1-68af522ac350",
+      "symbol": "ETHUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00312388,
+      "position_size": 0.03,
+      "recorded_at": "2026-04-03 08:03:13"
+    },
+    {
+      "tran_id": "03ab4c1e-3fe4-4f23-97b7-860467725a17",
+      "symbol": "DOGEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00347173,
+      "position_size": 398.0,
+      "recorded_at": "2026-04-03 08:03:12"
+    },
+    {
+      "tran_id": "a19489f0-87de-444f-a2f0-3ff6e0a25669",
+      "symbol": "AVAXUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00933975,
+      "position_size": 10.5,
+      "recorded_at": "2026-04-03 08:03:11"
+    },
+    {
+      "tran_id": "db9a9a4b-3463-4091-853b-e5abcb98490e",
+      "symbol": "B3USDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00708976,
+      "position_size": 0.0,
+      "recorded_at": "2026-04-03 08:03:10"
+    },
+    {
+      "tran_id": "65923784-1b0c-4791-be1b-db3cbca4cb7b",
+      "symbol": "B3USDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00705382,
+      "position_size": 0.0,
+      "recorded_at": "2026-04-03 04:01:46"
+    },
     {
       "tran_id": "d2be471f-05a7-4b3c-affe-a5299cbdafcd",
       "symbol": "ETHUSDT",
@@ -245,126 +373,6 @@
       "income": -0.00504905,
       "position_size": 0.0,
       "recorded_at": "2026-04-02 04:04:47"
-    },
-    {
-      "tran_id": "424d07d6-6904-4029-b21b-0783a36e2187",
-      "symbol": "DOGEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00366796,
-      "position_size": 398.0,
-      "recorded_at": "2026-04-02 00:03:33"
-    },
-    {
-      "tran_id": "82a7600e-2d2e-481e-8947-37c5e3c2ef5e",
-      "symbol": "ETHUSDT",
-      "funding_rate_pct": 0.0,
-      "income": -0.00341619,
-      "position_size": 0.03,
-      "recorded_at": "2026-04-02 00:03:33"
-    },
-    {
-      "tran_id": "830f5e32-38df-4a3b-ad1a-6c0751af058f",
-      "symbol": "AVAXUSDT",
-      "funding_rate_pct": 0.0,
-      "income": -0.00367623,
-      "position_size": 10.5,
-      "recorded_at": "2026-04-02 00:03:32"
-    },
-    {
-      "tran_id": "5a078db7-8db8-46a4-80df-428cffd37338",
-      "symbol": "B3USDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00719039,
-      "position_size": 0.0,
-      "recorded_at": "2026-04-02 00:03:31"
-    },
-    {
-      "tran_id": "b16a627d-94b8-4964-a1b8-8d749c695853",
-      "symbol": "B3USDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00729102,
-      "position_size": 0.0,
-      "recorded_at": "2026-04-01 20:02:23"
-    },
-    {
-      "tran_id": "119fb1cc-6cd8-4e20-bae9-78740521ca0f",
-      "symbol": "ETHUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00017733,
-      "position_size": 0.03,
-      "recorded_at": "2026-04-01 16:01:22"
-    },
-    {
-      "tran_id": "d1771409-f39d-4ba9-8a85-43967a12d196",
-      "symbol": "B3USDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.0071832,
-      "position_size": 0.0,
-      "recorded_at": "2026-04-01 16:01:21"
-    },
-    {
-      "tran_id": "840f1250-9743-4856-9e2f-3473bc20c17e",
-      "symbol": "DOGEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00370299,
-      "position_size": 398.0,
-      "recorded_at": "2026-04-01 16:01:20"
-    },
-    {
-      "tran_id": "59057533-cf7b-4e79-bd01-06d1326109bd",
-      "symbol": "AVAXUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00272417,
-      "position_size": 10.5,
-      "recorded_at": "2026-04-01 16:01:20"
-    },
-    {
-      "tran_id": "65001629-c370-4790-a7f5-95c2b8aa6d86",
-      "symbol": "B3USDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00715685,
-      "position_size": 0.0,
-      "recorded_at": "2026-04-01 12:00:14"
-    },
-    {
-      "tran_id": "467ee907-b54d-4982-a6ec-59358b37d942",
-      "symbol": "DOGEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00371055,
-      "position_size": 398.0,
-      "recorded_at": "2026-04-01 08:04:08"
-    },
-    {
-      "tran_id": "5df414d4-5c67-407b-ba93-13663dddd578",
-      "symbol": "ETHUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00638985,
-      "position_size": 0.03,
-      "recorded_at": "2026-04-01 08:04:08"
-    },
-    {
-      "tran_id": "d6c5006d-2734-4d3f-ba5a-d676a2f83b9d",
-      "symbol": "AVAXUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00980595,
-      "position_size": 10.5,
-      "recorded_at": "2026-04-01 08:04:07"
-    },
-    {
-      "tran_id": "2dea5473-2d19-43bd-87a8-72d5b759b9a9",
-      "symbol": "B3USDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00733894,
-      "position_size": 0.0,
-      "recorded_at": "2026-04-01 08:04:05"
-    },
-    {
-      "tran_id": "4459661e-1cf6-473f-95ea-d1894c38910e",
-      "symbol": "B3USDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00734853,
-      "position_size": 0.0,
-      "recorded_at": "2026-04-01 04:02:57"
     }
   ],
   "fee_breakdown": {
@@ -379,13 +387,18 @@
   "symbol_breakdown": [
     {
       "symbol": "B3USDT",
-      "total_income": 0.14958148,
-      "payout_count": 54
+      "total_income": 0.19139884999999998,
+      "payout_count": 60
     },
     {
-      "symbol": "ETHUSDT",
-      "total_income": 0.02031075,
-      "payout_count": 12
+      "symbol": "AVAXUSDT",
+      "total_income": 0.03505349,
+      "payout_count": 21
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "total_income": 0.026145250000000002,
+      "payout_count": 19
     },
     {
       "symbol": "NEARUSDT",
@@ -393,19 +406,14 @@
       "payout_count": 2
     },
     {
-      "symbol": "DOGEUSDT",
-      "total_income": 0.01539013,
-      "payout_count": 16
+      "symbol": "ETHUSDT",
+      "total_income": 0.01826423,
+      "payout_count": 15
     },
     {
       "symbol": "DOTUSDT",
       "total_income": 0.00899555,
       "payout_count": 1
-    },
-    {
-      "symbol": "AVAXUSDT",
-      "total_income": 0.00689774,
-      "payout_count": 18
     },
     {
       "symbol": "ADAUSDT",
@@ -424,7 +432,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-04-03T00:00:37.016563+00:00",
+    "generated_at": "2026-04-04T00:02:47.322974+00:00",
     "version": "1.1.0"
   }
 }
