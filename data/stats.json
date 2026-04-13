@@ -1,16 +1,16 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 0.5757552,
-    "total_fees_paid": 0.2048767122,
+    "total_funding_income": 0.57252421,
+    "total_fees_paid": 0.26200642620000003,
     "estimated_slippage": 0.0,
-    "total_trade_pnl": -0.2048767122,
-    "net_profit": 0.3708784878,
-    "closed_trade_count": 12,
-    "open_trade_count": 3,
-    "funding_7d": 0.1650351,
-    "projected_apr_pct": 0.36244133918481874,
-    "operating_days": 17,
+    "total_trade_pnl": -0.26200642620000003,
+    "net_profit": 0.31051778379999995,
+    "closed_trade_count": 13,
+    "open_trade_count": 2,
+    "funding_7d": 0.11600773,
+    "projected_apr_pct": -5.537532188682898,
+    "operating_days": 18,
     "round_trip_fee_pct": 0.246
   },
   "daily_series": [
@@ -160,26 +160,14 @@
     },
     {
       "date": "2026-04-13",
-      "funding_income": 0.007708660000000001,
-      "trade_pnl": 0.0,
-      "fees_paid": 0.0,
-      "net": 0.007708660000000001,
-      "cumulative_net": 0.3708784878
+      "funding_income": 0.0044776700000000004,
+      "trade_pnl": -0.057129714,
+      "fees_paid": 0.057129714,
+      "net": -0.052652043999999995,
+      "cumulative_net": 0.3105177838
     }
   ],
   "open_positions": [
-    {
-      "id": 2619,
-      "symbol": "ETH/USDT:USDT",
-      "quantity": 0.03,
-      "spot_price": 2047.66,
-      "futures_price": 2047.66,
-      "position_value_usdt": 61.4298,
-      "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 329.3,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-03-30 06:45:57"
-    },
     {
       "id": 2620,
       "symbol": "HYPE/USDT:USDT",
@@ -188,7 +176,7 @@
       "futures_price": 35.72,
       "position_value_usdt": 133.2356,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 184.0,
+      "hold_hours": 197.3,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-05 08:07:42"
     },
@@ -200,12 +188,36 @@
       "futures_price": 0.09278,
       "position_value_usdt": 132.6754,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 32.0,
+      "hold_hours": 45.4,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-11 16:05:38"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "f158910b-de11-442c-8cb2-ccd1c95acccf",
+      "symbol": "ETHUSDT",
+      "funding_rate_pct": 0.0,
+      "income": -0.00051528,
+      "position_size": 0.0,
+      "recorded_at": "2026-04-13 08:02:24"
+    },
+    {
+      "tran_id": "10ff5bfb-3576-4396-afbd-9b665b955dd7",
+      "symbol": "DOGEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00025593,
+      "position_size": 1430.0,
+      "recorded_at": "2026-04-13 08:02:23"
+    },
+    {
+      "tran_id": "71935b56-c8db-42d2-8ecd-de76a4403a6b",
+      "symbol": "HYPEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": -0.00297164,
+      "position_size": 3.73,
+      "recorded_at": "2026-04-13 08:02:22"
+    },
     {
       "tran_id": "ce4a9217-8fce-40bf-8721-904c2fef52cc",
       "symbol": "ETHUSDT",
@@ -421,36 +433,12 @@
       "income": 0.00656706,
       "position_size": 0.03,
       "recorded_at": "2026-04-10 00:03:29"
-    },
-    {
-      "tran_id": "4cd54680-e9db-4569-a8d9-712824e44111",
-      "symbol": "DOGEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00368468,
-      "position_size": 398.0,
-      "recorded_at": "2026-04-10 00:03:28"
-    },
-    {
-      "tran_id": "a18b4ae6-f208-4143-9ada-38713b8e77df",
-      "symbol": "HYPEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00814784,
-      "position_size": 3.73,
-      "recorded_at": "2026-04-10 00:03:27"
-    },
-    {
-      "tran_id": "9baca716-7334-4713-83a0-86962e452eae",
-      "symbol": "ETHUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00243244,
-      "position_size": 0.03,
-      "recorded_at": "2026-04-09 16:01:20"
     }
   ],
   "fee_breakdown": {
-    "spot_fees": 0.14341369854,
-    "futures_fees": 0.061463013659999996,
-    "total_fees": 0.2048767122,
+    "spot_fees": 0.18340449834,
+    "futures_fees": 0.07860192786,
+    "total_fees": 0.26200642620000003,
     "spot_fee_rate_pct": 0.075,
     "futures_fee_rate_pct": 0.018000000000000002,
     "slippage_rate_pct": 0.03,
@@ -464,8 +452,8 @@
     },
     {
       "symbol": "HYPEUSDT",
-      "total_income": 0.11189179,
-      "payout_count": 23
+      "total_income": 0.10892015000000001,
+      "payout_count": 24
     },
     {
       "symbol": "AVAXUSDT",
@@ -474,13 +462,13 @@
     },
     {
       "symbol": "ETHUSDT",
-      "total_income": 0.04555598,
-      "payout_count": 42
+      "total_income": 0.0450407,
+      "payout_count": 43
     },
     {
       "symbol": "DOGEUSDT",
-      "total_income": 0.0379829,
-      "payout_count": 45
+      "total_income": 0.03823883,
+      "payout_count": 46
     },
     {
       "symbol": "NEARUSDT",
@@ -509,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-04-13T00:04:59.201386+00:00",
+    "generated_at": "2026-04-13T13:26:45.918560+00:00",
     "version": "1.1.0"
   }
 }
