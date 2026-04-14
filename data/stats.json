@@ -1,15 +1,15 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 0.57252421,
+    "total_funding_income": 0.58915956,
     "total_fees_paid": 0.26200642620000003,
     "estimated_slippage": 0.0,
     "total_trade_pnl": -0.26200642620000003,
-    "net_profit": 0.31051778379999995,
+    "net_profit": 0.3271531338,
     "closed_trade_count": 13,
-    "open_trade_count": 2,
-    "funding_7d": 0.11600773,
-    "projected_apr_pct": -5.537532188682898,
+    "open_trade_count": 3,
+    "funding_7d": 0.12492036000000001,
+    "projected_apr_pct": -3.2946456332763807,
     "operating_days": 18,
     "round_trip_fee_pct": 0.246
   },
@@ -160,11 +160,19 @@
     },
     {
       "date": "2026-04-13",
-      "funding_income": 0.0044776700000000004,
+      "funding_income": 0.01325659,
       "trade_pnl": -0.057129714,
       "fees_paid": 0.057129714,
-      "net": -0.052652043999999995,
-      "cumulative_net": 0.3105177838
+      "net": -0.043873124,
+      "cumulative_net": 0.3192967038
+    },
+    {
+      "date": "2026-04-14",
+      "funding_income": 0.007856430000000001,
+      "trade_pnl": 0.0,
+      "fees_paid": 0.0,
+      "net": 0.007856430000000001,
+      "cumulative_net": 0.32715313380000005
     }
   ],
   "open_positions": [
@@ -176,7 +184,7 @@
       "futures_price": 35.72,
       "position_value_usdt": 133.2356,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 197.3,
+      "hold_hours": 207.9,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-05 08:07:42"
     },
@@ -188,12 +196,72 @@
       "futures_price": 0.09278,
       "position_value_usdt": 132.6754,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 45.4,
+      "hold_hours": 55.9,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-11 16:05:38"
+    },
+    {
+      "id": 2622,
+      "symbol": "AAVE/USDT:USDT",
+      "quantity": 0.52,
+      "spot_price": 94.54,
+      "futures_price": 94.54,
+      "position_value_usdt": 49.1608,
+      "funding_rate_at_entry_pct": 0.01,
+      "hold_hours": 10.1,
+      "estimated_funding_earned": 0.0,
+      "entered_at": "2026-04-13 13:52:30"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "3a2d5264-0480-4e44-b7ff-8383d4d2281a",
+      "symbol": "DOGEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.01345487,
+      "position_size": 1430.0,
+      "recorded_at": "2026-04-14 00:00:23"
+    },
+    {
+      "tran_id": "c46e6fde-054f-41fa-8634-4471fb972926",
+      "symbol": "AAVEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00536848,
+      "position_size": 0.52,
+      "recorded_at": "2026-04-14 00:00:22"
+    },
+    {
+      "tran_id": "7a14a1a3-37e7-48be-ad01-314f808df97a",
+      "symbol": "HYPEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": -0.01096692,
+      "position_size": 3.73,
+      "recorded_at": "2026-04-14 00:00:21"
+    },
+    {
+      "tran_id": "1e04e148-f69e-45f5-894d-70992e484b6f",
+      "symbol": "DOGEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00226364,
+      "position_size": 1430.0,
+      "recorded_at": "2026-04-13 16:03:08"
+    },
+    {
+      "tran_id": "0f168a89-452c-4780-b346-a59d33c3f333",
+      "symbol": "HYPEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.00161688,
+      "position_size": 3.73,
+      "recorded_at": "2026-04-13 16:03:07"
+    },
+    {
+      "tran_id": "bc006c2a-955e-4372-bbc8-9cebcd9dc94b",
+      "symbol": "AAVEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.0048984,
+      "position_size": 0.52,
+      "recorded_at": "2026-04-13 16:03:06"
+    },
     {
       "tran_id": "f158910b-de11-442c-8cb2-ccd1c95acccf",
       "symbol": "ETHUSDT",
@@ -385,54 +453,6 @@
       "income": 0.00237616,
       "position_size": 0.03,
       "recorded_at": "2026-04-10 16:03:09"
-    },
-    {
-      "tran_id": "c98e34bd-d9de-4fe6-b271-70b7f9c33871",
-      "symbol": "DOGEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00361569,
-      "position_size": 398.0,
-      "recorded_at": "2026-04-10 16:03:08"
-    },
-    {
-      "tran_id": "5db941e9-aa6e-472c-b2d9-1c9413f933e7",
-      "symbol": "HYPEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00220498,
-      "position_size": 3.73,
-      "recorded_at": "2026-04-10 16:03:07"
-    },
-    {
-      "tran_id": "e4ad5381-cbde-4fe0-995b-fb993ac36be7",
-      "symbol": "DOGEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00367155,
-      "position_size": 398.0,
-      "recorded_at": "2026-04-10 08:00:49"
-    },
-    {
-      "tran_id": "6409e5e6-5324-4861-aa68-cfe695583266",
-      "symbol": "ETHUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00298488,
-      "position_size": 0.03,
-      "recorded_at": "2026-04-10 08:00:48"
-    },
-    {
-      "tran_id": "0f31fb5d-fdf1-48cb-acab-e378418e737f",
-      "symbol": "HYPEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00362027,
-      "position_size": 3.73,
-      "recorded_at": "2026-04-10 08:00:47"
-    },
-    {
-      "tran_id": "83c40f41-1b90-49da-bb92-d9e05ca3f1ba",
-      "symbol": "ETHUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00656706,
-      "position_size": 0.03,
-      "recorded_at": "2026-04-10 00:03:29"
     }
   ],
   "fee_breakdown": {
@@ -452,8 +472,13 @@
     },
     {
       "symbol": "HYPEUSDT",
-      "total_income": 0.10892015000000001,
-      "payout_count": 24
+      "total_income": 0.09957011,
+      "payout_count": 26
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "total_income": 0.05395734,
+      "payout_count": 48
     },
     {
       "symbol": "AVAXUSDT",
@@ -466,13 +491,13 @@
       "payout_count": 43
     },
     {
-      "symbol": "DOGEUSDT",
-      "total_income": 0.03823883,
-      "payout_count": 46
-    },
-    {
       "symbol": "NEARUSDT",
       "total_income": 0.01845128,
+      "payout_count": 2
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "total_income": 0.010266879999999999,
       "payout_count": 2
     },
     {
@@ -497,7 +522,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-04-13T13:26:45.918560+00:00",
+    "generated_at": "2026-04-14T00:00:26.007175+00:00",
     "version": "1.1.0"
   }
 }
