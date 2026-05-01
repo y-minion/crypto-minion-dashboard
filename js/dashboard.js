@@ -102,6 +102,14 @@ function renderSummary(s) {
   elApr.classList.add((s.projected_apr_pct || 0) >= 0 ? 'positive' : 'negative');
   document.getElementById('sub-positions').textContent =
     `오픈 포지션: ${s.open_trade_count || 0}개`;
+
+  // 현재 총 자산
+  if (s.total_equity != null) {
+    const elEquity = document.getElementById('val-equity');
+    countUp(elEquity, s.total_equity, '$', '', 2);
+    document.getElementById('sub-available').textContent =
+      `가용 잔고: ${fmt$(s.available_balance ?? s.total_equity, 2)}`;
+  }
 }
 
 // ── 일별 바 차트 ──────────────────────────────────────────────────────
