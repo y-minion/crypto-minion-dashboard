@@ -1,16 +1,16 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 2.84869026,
-    "total_fees_paid": 0.7983932262000001,
+    "total_funding_income": 2.93644677,
+    "total_fees_paid": 0.920390496,
     "estimated_slippage": 0.0,
-    "total_trade_pnl": -0.7983932262000001,
-    "net_profit": 2.0502970338,
-    "closed_trade_count": 18,
+    "total_trade_pnl": -0.920390496,
+    "net_profit": 2.016056274,
+    "closed_trade_count": 19,
     "open_trade_count": 3,
-    "funding_7d": 1.89555406,
-    "projected_apr_pct": 11.022142070473016,
-    "operating_days": 35,
+    "funding_7d": 1.95416241,
+    "projected_apr_pct": 7.450566270153719,
+    "operating_days": 36,
     "round_trip_fee_pct": 0.246
   },
   "daily_series": [
@@ -304,26 +304,14 @@
     },
     {
       "date": "2026-05-01",
-      "funding_income": 0.0043137800000000006,
-      "trade_pnl": 0.0,
-      "fees_paid": 0.0,
-      "net": 0.0043137800000000006,
-      "cumulative_net": 2.0502970338
+      "funding_income": 0.09207029,
+      "trade_pnl": -0.1219972698,
+      "fees_paid": 0.1219972698,
+      "net": -0.029926979800000003,
+      "cumulative_net": 2.0160562740000003
     }
   ],
   "open_positions": [
-    {
-      "id": 2624,
-      "symbol": "HYPE/USDT:USDT",
-      "quantity": 2.94,
-      "spot_price": 44.619,
-      "futures_price": 44.619,
-      "position_value_usdt": 131.17986,
-      "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 295.9,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-04-18 16:07:56"
-    },
     {
       "id": 2626,
       "symbol": "BSB/USDT:USDT",
@@ -332,7 +320,7 @@
       "futures_price": 0.5005,
       "position_value_usdt": 87.08699999999999,
       "funding_rate_at_entry_pct": 0.28102499999999997,
-      "hold_hours": 159.9,
+      "hold_hours": 166.3,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-24 08:07:13"
     },
@@ -344,12 +332,32 @@
       "futures_price": 83.03,
       "position_value_usdt": 124.545,
       "funding_rate_at_entry_pct": 0.009467,
-      "hold_hours": 30.0,
+      "hold_hours": 36.3,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-29 18:04:43"
+    },
+    {
+      "id": 2628,
+      "symbol": "DOGE/USDT:USDT",
+      "quantity": 1005.0,
+      "spot_price": 0.1074,
+      "futures_price": 0.1074,
+      "position_value_usdt": 107.937,
+      "funding_rate_at_entry_pct": 0.01,
+      "hold_hours": 6.1,
+      "estimated_funding_earned": 0.0,
+      "entered_at": "2026-05-01 00:18:21"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "9de23a40-c744-497a-991e-c9afa3eabfa8",
+      "symbol": "BSBUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.08775651,
+      "position_size": 174.0,
+      "recorded_at": "2026-05-01 04:04:25"
+    },
     {
       "tran_id": "43a6fa10-f6f2-4671-9560-49cf22a33935",
       "symbol": "SOLUSDT",
@@ -581,20 +589,12 @@
       "income": 0.00315825,
       "position_size": 529.0,
       "recorded_at": "2026-04-28 16:01:50"
-    },
-    {
-      "tran_id": "5dc4e8ac-3657-4ad7-8c81-55e48783afa7",
-      "symbol": "BSBUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00664506,
-      "position_size": 174.0,
-      "recorded_at": "2026-04-28 16:01:49"
     }
   ],
   "fee_breakdown": {
-    "spot_fees": 0.5588752583400001,
-    "futures_fees": 0.23951796786000001,
-    "total_fees": 0.7983932262000001,
+    "spot_fees": 0.6442733472,
+    "futures_fees": 0.2761171488,
+    "total_fees": 0.920390496,
     "spot_fee_rate_pct": 0.075,
     "futures_fee_rate_pct": 0.018000000000000002,
     "slippage_rate_pct": 0.03,
@@ -603,8 +603,8 @@
   "symbol_breakdown": [
     {
       "symbol": "BSBUSDT",
-      "total_income": 1.72890118,
-      "payout_count": 40
+      "total_income": 1.81665769,
+      "payout_count": 41
     },
     {
       "symbol": "B3USDT",
@@ -673,7 +673,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-01T00:03:01.847922+00:00",
+    "generated_at": "2026-05-01T06:24:55.818367+00:00",
     "version": "1.1.0"
   }
 }
