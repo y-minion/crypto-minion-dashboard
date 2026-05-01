@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/youngmin/FullStack/crypto-minion-dashboard log --oneline --all)",
+      "Bash(git -C /Users/youngmin/FullStack/crypto-minion-dashboard remote -v)",
+      "Bash(git *)"
+    ]
+  }
+}
