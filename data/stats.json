@@ -8,8 +8,8 @@
     "net_profit": 3.2671589240000003,
     "closed_trade_count": 20,
     "open_trade_count": 3,
-    "funding_7d": 1.86320822,
-    "projected_apr_pct": 6.9316161842761055,
+    "funding_7d": 1.80434362,
+    "projected_apr_pct": 6.931714355191978,
     "operating_days": 40,
     "round_trip_fee_pct": 0.246,
     "total_equity": 398.57,
@@ -362,7 +362,7 @@
       "futures_price": 83.03,
       "position_value_usdt": 124.545,
       "funding_rate_at_entry_pct": 0.009467,
-      "hold_hours": 150.0,
+      "hold_hours": 150.1,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-29 18:04:43"
     },
@@ -386,7 +386,7 @@
       "futures_price": 0.2509,
       "position_value_usdt": 104.37440000000001,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 28.0,
+      "hold_hours": 28.1,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-04 20:02:22"
     }
@@ -715,7 +715,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-06T00:03:28.060711+00:00",
+    "generated_at": "2026-05-06T00:08:34.255039+00:00",
     "version": "1.1.0"
   }
 }
