@@ -1,18 +1,18 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 4.41154659,
+    "total_funding_income": 4.4098924,
     "total_fees_paid": 1.001381406,
     "estimated_slippage": 0.0,
     "total_trade_pnl": -1.001381406,
-    "net_profit": 3.4101651840000002,
+    "net_profit": 3.4085109940000002,
     "closed_trade_count": 20,
     "open_trade_count": 3,
-    "funding_7d": 1.3273647400000002,
-    "projected_apr_pct": 6.864089484469544,
+    "funding_7d": 1.1856495,
+    "projected_apr_pct": 5.201965329232348,
     "operating_days": 43,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 399.63,
+    "total_equity": 400.42,
     "available_balance": 0.0
   },
   "daily_series": [
@@ -367,6 +367,14 @@
       "fees_paid": 0.0,
       "net": 0.07515416999999999,
       "cumulative_net": 3.410165184
+    },
+    {
+      "date": "2026-05-09",
+      "funding_income": -0.0016541900000000005,
+      "trade_pnl": 0.0,
+      "fees_paid": 0.0,
+      "net": -0.0016541900000000005,
+      "cumulative_net": 3.408510994
     }
   ],
   "open_positions": [
@@ -378,7 +386,7 @@
       "futures_price": 83.03,
       "position_value_usdt": 124.545,
       "funding_rate_at_entry_pct": 0.009467,
-      "hold_hours": 214.0,
+      "hold_hours": 222.0,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-04-29 18:04:43"
     },
@@ -390,7 +398,7 @@
       "futures_price": 0.1074,
       "position_value_usdt": 107.937,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 183.8,
+      "hold_hours": 191.8,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-01 00:18:21"
     },
@@ -402,12 +410,36 @@
       "futures_price": 0.2509,
       "position_value_usdt": 104.37440000000001,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 92.1,
+      "hold_hours": 100.0,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-04 20:02:22"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "95a8d801-756b-4921-9150-82d969b451bc",
+      "symbol": "SOLUSDT",
+      "funding_rate_pct": 0.0,
+      "income": -0.01285051,
+      "position_size": 1.5,
+      "recorded_at": "2026-05-09 00:04:14"
+    },
+    {
+      "tran_id": "aace3e70-7b95-45f7-98ac-a57b8a1d7295",
+      "symbol": "DOGEUSDT",
+      "funding_rate_pct": 0.0,
+      "income": -0.00017712,
+      "position_size": 1005.0,
+      "recorded_at": "2026-05-09 00:04:13"
+    },
+    {
+      "tran_id": "ff712f50-34e1-49ac-abee-f94846f6921b",
+      "symbol": "ADAUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.01137344,
+      "position_size": 416.0,
+      "recorded_at": "2026-05-09 00:04:12"
+    },
     {
       "tran_id": "3f5f44c0-2886-48d9-b51a-bf61579f3bd0",
       "symbol": "SOLUSDT",
@@ -623,30 +655,6 @@
       "income": -0.00029079,
       "position_size": 416.0,
       "recorded_at": "2026-05-06 00:03:22"
-    },
-    {
-      "tran_id": "d63f6066-b072-4541-b802-fc4a396f0d5e",
-      "symbol": "SOLUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.0128205,
-      "position_size": 1.5,
-      "recorded_at": "2026-05-05 16:01:41"
-    },
-    {
-      "tran_id": "842f7381-8c74-41cb-89de-f4ce6976d799",
-      "symbol": "DOGEUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.0099189,
-      "position_size": 1005.0,
-      "recorded_at": "2026-05-05 16:01:40"
-    },
-    {
-      "tran_id": "d65e625e-2af2-429b-acee-c8cf8ba02f7d",
-      "symbol": "ADAUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.0049594,
-      "position_size": 416.0,
-      "recorded_at": "2026-05-05 16:01:39"
     }
   ],
   "fee_breakdown": {
@@ -666,8 +674,8 @@
     },
     {
       "symbol": "DOGEUSDT",
-      "total_income": 0.30141919,
-      "payout_count": 98
+      "total_income": 0.30124207000000003,
+      "payout_count": 99
     },
     {
       "symbol": "B3USDT",
@@ -681,13 +689,13 @@
     },
     {
       "symbol": "SOLUSDT",
-      "total_income": 0.18799731,
-      "payout_count": 27
+      "total_income": 0.1751468,
+      "payout_count": 28
     },
     {
       "symbol": "ADAUSDT",
-      "total_income": 0.08069474,
-      "payout_count": 32
+      "total_income": 0.09206818,
+      "payout_count": 33
     },
     {
       "symbol": "AAVEUSDT",
@@ -731,7 +739,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-08T16:07:41.671847+00:00",
+    "generated_at": "2026-05-09T00:04:19.701680+00:00",
     "version": "1.1.0"
   }
 }
