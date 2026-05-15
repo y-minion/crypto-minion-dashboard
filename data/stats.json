@@ -2,18 +2,18 @@
   "is_sample_data": false,
   "summary": {
     "total_funding_income": 4.60839624,
-    "total_fees_paid": 1.4040393489,
+    "total_fees_paid": 1.5011075409,
     "estimated_slippage": 0.0,
-    "total_trade_pnl": -1.4040393489,
-    "net_profit": 3.2043568911,
-    "closed_trade_count": 23,
+    "total_trade_pnl": -1.5011075409,
+    "net_profit": 3.1072886991,
+    "closed_trade_count": 24,
     "open_trade_count": 2,
-    "funding_7d": 0.27200382,
-    "projected_apr_pct": 6.32409632360459,
+    "funding_7d": 0.25557157,
+    "projected_apr_pct": -5.35005373694599,
     "operating_days": 49,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 399.81,
-    "available_balance": 0.0
+    "total_equity": 399.53,
+    "available_balance": 16.24
   },
   "daily_series": [
     {
@@ -419,25 +419,13 @@
     {
       "date": "2026-05-15",
       "funding_income": 0.024568970000000002,
-      "trade_pnl": 0.0,
-      "fees_paid": 0.0,
-      "net": 0.024568970000000002,
-      "cumulative_net": 3.2043568910999998
+      "trade_pnl": -0.09706819200000001,
+      "fees_paid": 0.09706819200000001,
+      "net": -0.072499222,
+      "cumulative_net": 3.1072886991
     }
   ],
   "open_positions": [
-    {
-      "id": 2629,
-      "symbol": "ADA/USDT:USDT",
-      "quantity": 416.0,
-      "spot_price": 0.2509,
-      "futures_price": 0.2509,
-      "position_value_usdt": 104.37440000000001,
-      "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 244.0,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-05-04 20:02:22"
-    },
     {
       "id": 2631,
       "symbol": "HYPE/USDT:USDT",
@@ -446,9 +434,21 @@
       "futures_price": 39.059,
       "position_value_usdt": 198.81031,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 31.9,
+      "hold_hours": 32.0,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-13 16:09:23"
+    },
+    {
+      "id": 2632,
+      "symbol": "AVAX/USDT:USDT",
+      "quantity": 9.7,
+      "spot_price": 9.909,
+      "futures_price": 9.909,
+      "position_value_usdt": 96.1173,
+      "funding_rate_at_entry_pct": 0.01,
+      "hold_hours": 0.0,
+      "estimated_funding_earned": 0.0,
+      "entered_at": "2026-05-15 00:06:42"
     }
   ],
   "recent_funding": [
@@ -694,9 +694,9 @@
     }
   ],
   "fee_breakdown": {
-    "spot_fees": 0.98282754423,
-    "futures_fees": 0.42121180467,
-    "total_fees": 1.4040393489,
+    "spot_fees": 1.05077527863,
+    "futures_fees": 0.45033226227,
+    "total_fees": 1.5011075409,
     "spot_fee_rate_pct": 0.075,
     "futures_fee_rate_pct": 0.018000000000000002,
     "slippage_rate_pct": 0.03,
@@ -775,7 +775,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-15T00:00:54.223651+00:00",
+    "generated_at": "2026-05-15T00:06:46.995109+00:00",
     "version": "1.1.0"
   }
 }
