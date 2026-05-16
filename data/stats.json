@@ -7,13 +7,13 @@
     "total_trade_pnl": -1.7753902182,
     "net_profit": 2.7601254317999997,
     "closed_trade_count": 26,
-    "open_trade_count": 0,
-    "funding_7d": 0.12396906,
-    "projected_apr_pct": -40.784292126400935,
+    "open_trade_count": 2,
+    "funding_7d": 0.12562325,
+    "projected_apr_pct": -31.92273337237973,
     "operating_days": 50,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 397.57,
-    "available_balance": 369.27
+    "total_equity": 396.94,
+    "available_balance": 0.0
   },
   "daily_series": [
     {
@@ -433,7 +433,32 @@
       "cumulative_net": 2.7601254317999997
     }
   ],
-  "open_positions": [],
+  "open_positions": [
+    {
+      "id": 2633,
+      "symbol": "ADA/USDT:USDT",
+      "quantity": 759.0,
+      "spot_price": 0.2618,
+      "futures_price": 0.2618,
+      "position_value_usdt": 198.7062,
+      "funding_rate_at_entry_pct": 0.01,
+      "hold_hours": 0.0,
+      "estimated_funding_earned": 0.0,
+      "entered_at": "2026-05-16 00:07:02"
+    },
+    {
+      "id": 2634,
+      "symbol": "NEAR/USDT:USDT",
+      "quantity": 92.3,
+      "spot_price": 1.5459,
+      "futures_price": 1.5459,
+      "position_value_usdt": 142.68657,
+      "funding_rate_at_entry_pct": 0.01,
+      "hold_hours": 0.0,
+      "estimated_funding_earned": 0.0,
+      "entered_at": "2026-05-16 00:07:09"
+    }
+  ],
   "recent_funding": [
     {
       "tran_id": "6225ffd3-7336-441d-af62-ba5b8091bf39",
@@ -758,7 +783,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-16T00:01:43.751166+00:00",
+    "generated_at": "2026-05-16T00:07:13.514679+00:00",
     "version": "1.1.0"
   }
 }
