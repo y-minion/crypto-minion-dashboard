@@ -1,19 +1,19 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 4.78781754,
+    "total_funding_income": 4.80807179,
     "total_fees_paid": 1.9279077723,
     "estimated_slippage": 0.0,
     "total_trade_pnl": -1.9279077723,
-    "net_profit": 2.8599097676999996,
+    "net_profit": 2.8801640176999994,
     "closed_trade_count": 28,
     "open_trade_count": 2,
-    "funding_7d": 0.249406,
-    "projected_apr_pct": -4.089781353346143,
+    "funding_7d": 0.23650065,
+    "projected_apr_pct": -3.8580136874040436,
     "operating_days": 58,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 596.63,
-    "available_balance": 335.76
+    "total_equity": 597.35,
+    "available_balance": 332.41
   },
   "daily_series": [
     {
@@ -487,6 +487,14 @@
       "fees_paid": 0.0,
       "net": -0.06685161,
       "cumulative_net": 2.8599097677
+    },
+    {
+      "date": "2026-05-24",
+      "funding_income": 0.02025425,
+      "trade_pnl": 0.0,
+      "fees_paid": 0.0,
+      "net": 0.02025425,
+      "cumulative_net": 2.8801640177
     }
   ],
   "open_positions": [
@@ -498,7 +506,7 @@
       "futures_price": 0.2618,
       "position_value_usdt": 198.7062,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 184.0,
+      "hold_hours": 192.0,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-16 00:07:02"
     },
@@ -510,12 +518,20 @@
       "futures_price": 0.2507,
       "position_value_usdt": 29.582599999999996,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 40.0,
+      "hold_hours": 47.9,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-22 00:08:56"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "4696c16b-dc99-4ec7-a320-410402f43e38",
+      "symbol": "ADAUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.02025425,
+      "position_size": 759.0,
+      "recorded_at": "2026-05-24 00:04:11"
+    },
     {
       "tran_id": "7f8a2f9a-fa4a-4b45-a811-464a342db591",
       "symbol": "ADAUSDT",
@@ -747,14 +763,6 @@
       "income": 0.00943793,
       "position_size": 92.3,
       "recorded_at": "2026-05-18 08:02:38"
-    },
-    {
-      "tran_id": "03a05a37-15a6-4d1d-bbfb-6f2a5496799e",
-      "symbol": "ADAUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.00473992,
-      "position_size": 759.0,
-      "recorded_at": "2026-05-18 08:02:37"
     }
   ],
   "fee_breakdown": {
@@ -789,8 +797,8 @@
     },
     {
       "symbol": "ADAUSDT",
-      "total_income": 0.22687488,
-      "payout_count": 74
+      "total_income": 0.24712913,
+      "payout_count": 75
     },
     {
       "symbol": "NEARUSDT",
@@ -839,7 +847,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-23T16:07:45.030315+00:00",
+    "generated_at": "2026-05-24T00:04:15.773890+00:00",
     "version": "1.1.0"
   }
 }
