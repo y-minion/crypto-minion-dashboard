@@ -6,14 +6,14 @@
     "estimated_slippage": 0.0,
     "total_trade_pnl": -1.9279077723,
     "net_profit": 2.9016680577000002,
-    "closed_trade_count": 28,
-    "open_trade_count": 3,
+    "closed_trade_count": 31,
+    "open_trade_count": 0,
     "funding_7d": 0.24284078,
-    "projected_apr_pct": -1.1415536022293162,
+    "projected_apr_pct": -1.1417684797344987,
     "operating_days": 59,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 595.8,
-    "available_balance": 9.9
+    "total_equity": 595.69,
+    "available_balance": 6.05
   },
   "daily_series": [
     {
@@ -497,44 +497,7 @@
       "cumulative_net": 2.9016680577000002
     }
   ],
-  "open_positions": [
-    {
-      "id": 2633,
-      "symbol": "ADA/USDT:USDT",
-      "quantity": 759.0,
-      "spot_price": 0.2618,
-      "futures_price": 0.2618,
-      "position_value_usdt": 198.7062,
-      "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 206.2,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-05-16 00:07:02"
-    },
-    {
-      "id": 2636,
-      "symbol": "ADA/USDT:USDT",
-      "quantity": 118.0,
-      "spot_price": 0.2507,
-      "futures_price": 0.2507,
-      "position_value_usdt": 29.582599999999996,
-      "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 62.2,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-05-22 00:08:56"
-    },
-    {
-      "id": 2637,
-      "symbol": "BSB/USDT:USDT",
-      "quantity": 284.0,
-      "spot_price": 1.0493,
-      "futures_price": 1.0493,
-      "position_value_usdt": 298.0012,
-      "funding_rate_at_entry_pct": 0.010898,
-      "hold_hours": 0.5,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-05-24 13:49:25"
-    }
-  ],
+  "open_positions": [],
   "recent_funding": [
     {
       "tran_id": "5fe5dac8-bd54-4381-bece-8781eb100d84",
@@ -859,7 +822,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-24T14:21:39.368289+00:00",
+    "generated_at": "2026-05-24T15:01:50.694539+00:00",
     "version": "1.1.0"
   }
 }
