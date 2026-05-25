@@ -7,13 +7,13 @@
     "total_trade_pnl": -1.9279077723,
     "net_profit": 2.9041935877,
     "closed_trade_count": 31,
-    "open_trade_count": 1,
+    "open_trade_count": 2,
     "funding_7d": 0.23606059,
-    "projected_apr_pct": 1.472695680294646,
-    "operating_days": 59,
+    "projected_apr_pct": 1.4724563006822544,
+    "operating_days": 60,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 595.56,
-    "available_balance": 17.49
+    "total_equity": 595.66,
+    "available_balance": 0.0
   },
   "daily_series": [
     {
@@ -514,9 +514,21 @@
       "futures_price": 1.0417,
       "position_value_usdt": 20.834000000000003,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 5.4,
+      "hold_hours": 8.5,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-24 18:48:23"
+    },
+    {
+      "id": 2639,
+      "symbol": "HYPE/USDT:USDT",
+      "quantity": 0.32,
+      "spot_price": 62.409,
+      "futures_price": 62.409,
+      "position_value_usdt": 19.97088,
+      "funding_rate_at_entry_pct": 0.009529000000000001,
+      "hold_hours": 2.7,
+      "estimated_funding_earned": 0.0,
+      "entered_at": "2026-05-25 00:39:55"
     }
   ],
   "recent_funding": [
@@ -848,7 +860,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-25T00:09:36.313145+00:00",
+    "generated_at": "2026-05-25T03:20:56.498583+00:00",
     "version": "1.1.0"
   }
 }
