@@ -1,18 +1,18 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 4.83210136,
+    "total_funding_income": 4.8463141400000005,
     "total_fees_paid": 1.9279077723,
     "estimated_slippage": 0.0,
     "total_trade_pnl": -1.9279077723,
-    "net_profit": 2.9041935877,
+    "net_profit": 2.9184063677000003,
     "closed_trade_count": 31,
     "open_trade_count": 2,
-    "funding_7d": 0.23606059,
-    "projected_apr_pct": 1.4724563006822544,
+    "funding_7d": 0.25027337,
+    "projected_apr_pct": 2.343838750429839,
     "operating_days": 60,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 595.66,
+    "total_equity": 595.54,
     "available_balance": 0.0
   },
   "daily_series": [
@@ -498,11 +498,11 @@
     },
     {
       "date": "2026-05-25",
-      "funding_income": -0.011099000000000001,
+      "funding_income": 0.0031137799999999987,
       "trade_pnl": 0.0,
       "fees_paid": 0.0,
-      "net": -0.011099000000000001,
-      "cumulative_net": 2.9041935877
+      "net": 0.0031137799999999987,
+      "cumulative_net": 2.9184063677000003
     }
   ],
   "open_positions": [
@@ -514,7 +514,7 @@
       "futures_price": 1.0417,
       "position_value_usdt": 20.834000000000003,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 8.5,
+      "hold_hours": 9.3,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-24 18:48:23"
     },
@@ -526,12 +526,20 @@
       "futures_price": 62.409,
       "position_value_usdt": 19.97088,
       "funding_rate_at_entry_pct": 0.009529000000000001,
-      "hold_hours": 2.7,
+      "hold_hours": 3.4,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-25 00:39:55"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "78de3b42-375d-4279-b3bd-b4372eaee0b6",
+      "symbol": "BSBUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.01421278,
+      "position_size": 0.0,
+      "recorded_at": "2026-05-25 04:01:06"
+    },
     {
       "tran_id": "0e27527a-62e1-415a-b151-1a1a66647420",
       "symbol": "ADAUSDT",
@@ -763,14 +771,6 @@
       "income": -0.02345067,
       "position_size": 92.3,
       "recorded_at": "2026-05-19 16:01:35"
-    },
-    {
-      "tran_id": "c7bb900b-e6c7-481b-91f9-0ec032250cee",
-      "symbol": "ADAUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.01483743,
-      "position_size": 759.0,
-      "recorded_at": "2026-05-19 16:01:34"
     }
   ],
   "fee_breakdown": {
@@ -785,8 +785,8 @@
   "symbol_breakdown": [
     {
       "symbol": "BSBUSDT",
-      "total_income": 3.06768323,
-      "payout_count": 65
+      "total_income": 3.08189601,
+      "payout_count": 66
     },
     {
       "symbol": "DOGEUSDT",
@@ -860,7 +860,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-25T03:20:56.498583+00:00",
+    "generated_at": "2026-05-25T04:04:17.464119+00:00",
     "version": "1.1.0"
   }
 }
