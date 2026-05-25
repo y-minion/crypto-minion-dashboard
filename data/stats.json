@@ -1,18 +1,18 @@
 {
   "is_sample_data": false,
   "summary": {
-    "total_funding_income": 4.97389698,
+    "total_funding_income": 5.00222808,
     "total_fees_paid": 1.9279077723,
     "estimated_slippage": 0.0,
     "total_trade_pnl": -1.9279077723,
-    "net_profit": 3.0459892077,
+    "net_profit": 3.0743203077,
     "closed_trade_count": 34,
     "open_trade_count": 2,
-    "funding_7d": 0.36367836,
-    "projected_apr_pct": 9.005893481295088,
+    "funding_7d": 0.38567851,
+    "projected_apr_pct": 10.747060857826494,
     "operating_days": 60,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 584.92,
+    "total_equity": 584.87,
     "available_balance": 0.0
   },
   "daily_series": [
@@ -498,11 +498,11 @@
     },
     {
       "date": "2026-05-25",
-      "funding_income": 0.13069661999999999,
+      "funding_income": 0.15902771999999998,
       "trade_pnl": 0.0,
       "fees_paid": 0.0,
-      "net": 0.13069661999999999,
-      "cumulative_net": 3.0459892077000004
+      "net": 0.15902771999999998,
+      "cumulative_net": 3.0743203077000003
     }
   ],
   "open_positions": [
@@ -514,7 +514,7 @@
       "futures_price": 1.0417,
       "position_value_usdt": 20.834000000000003,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 21.1,
+      "hold_hours": 21.3,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-24 18:48:23"
     },
@@ -526,12 +526,20 @@
       "futures_price": 1.0572,
       "position_value_usdt": 264.29999999999995,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 1.7,
+      "hold_hours": 1.9,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-25 14:12:53"
     }
   ],
   "recent_funding": [
+    {
+      "tran_id": "cd31f5b9-8d1c-4abd-9384-8a2310a301c0",
+      "symbol": "SUIUSDT",
+      "funding_rate_pct": 0.0,
+      "income": 0.0283311,
+      "position_size": 20.0,
+      "recorded_at": "2026-05-25 16:01:25"
+    },
     {
       "tran_id": "a1b725b5-1d33-4322-abba-0b9037fe57a5",
       "symbol": "BSBUSDT",
@@ -763,14 +771,6 @@
       "income": 0.01774829,
       "position_size": 92.3,
       "recorded_at": "2026-05-20 16:01:10"
-    },
-    {
-      "tran_id": "f768de71-a6a0-4f76-a45a-74d38be4eee3",
-      "symbol": "ADAUSDT",
-      "funding_rate_pct": 0.0,
-      "income": 0.01899018,
-      "position_size": 759.0,
-      "recorded_at": "2026-05-20 16:01:09"
     }
   ],
   "fee_breakdown": {
@@ -844,14 +844,14 @@
       "payout_count": 28
     },
     {
+      "symbol": "SUIUSDT",
+      "total_income": 0.03145279,
+      "payout_count": 3
+    },
+    {
       "symbol": "DOTUSDT",
       "total_income": 0.00899555,
       "payout_count": 1
-    },
-    {
-      "symbol": "SUIUSDT",
-      "total_income": 0.00312169,
-      "payout_count": 2
     },
     {
       "symbol": "BCHUSDT",
@@ -860,7 +860,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-25T15:56:23.765215+00:00",
+    "generated_at": "2026-05-25T16:06:30.466939+00:00",
     "version": "1.1.0"
   }
 }
