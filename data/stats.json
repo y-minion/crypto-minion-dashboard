@@ -2,18 +2,18 @@
   "is_sample_data": false,
   "summary": {
     "total_funding_income": 5.00222808,
-    "total_fees_paid": 1.9279077723,
+    "total_fees_paid": 4.1333272563,
     "estimated_slippage": 0.0,
-    "total_trade_pnl": -1.9279077723,
-    "net_profit": 3.0743203077,
-    "closed_trade_count": 34,
-    "open_trade_count": 2,
-    "funding_7d": 0.38567851,
-    "projected_apr_pct": 10.814488669161996,
+    "total_trade_pnl": -4.1333272563,
+    "net_profit": 0.8689008236999998,
+    "closed_trade_count": 45,
+    "open_trade_count": 1,
+    "funding_7d": 0.37110553,
+    "projected_apr_pct": -413341.75515794003,
     "operating_days": 60,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 581.22,
-    "available_balance": 254.33
+    "total_equity": 0.18,
+    "available_balance": 0.13
   },
   "daily_series": [
     {
@@ -499,36 +499,24 @@
     {
       "date": "2026-05-25",
       "funding_income": 0.15902771999999998,
-      "trade_pnl": 0.0,
-      "fees_paid": 0.0,
-      "net": 0.15902771999999998,
-      "cumulative_net": 3.0743203077000003
+      "trade_pnl": -2.205419484,
+      "fees_paid": 2.205419484,
+      "net": -2.046391764,
+      "cumulative_net": 0.8689008237000002
     }
   ],
   "open_positions": [
     {
-      "id": 2638,
-      "symbol": "SUI/USDT:USDT",
-      "quantity": 20.0,
-      "spot_price": 1.0417,
-      "futures_price": 1.0417,
-      "position_value_usdt": 20.834000000000003,
+      "id": 2652,
+      "symbol": "BNB/USDT:USDT",
+      "quantity": 0.37,
+      "spot_price": 662.7,
+      "futures_price": 662.7,
+      "position_value_usdt": 245.199,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 21.6,
+      "hold_hours": 1.5,
       "estimated_funding_earned": 0.0,
-      "entered_at": "2026-05-24 18:48:23"
-    },
-    {
-      "id": 2641,
-      "symbol": "SUI/USDT:USDT",
-      "quantity": 250.0,
-      "spot_price": 1.0572,
-      "futures_price": 1.0572,
-      "position_value_usdt": 264.29999999999995,
-      "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 2.2,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-05-25 14:12:53"
+      "entered_at": "2026-05-25 23:17:25"
     }
   ],
   "recent_funding": [
@@ -774,9 +762,9 @@
     }
   ],
   "fee_breakdown": {
-    "spot_fees": 1.34953544061,
-    "futures_fees": 0.57837233169,
-    "total_fees": 1.9279077723,
+    "spot_fees": 2.89332907941,
+    "futures_fees": 1.2399981768900001,
+    "total_fees": 4.1333272563,
     "spot_fee_rate_pct": 0.075,
     "futures_fee_rate_pct": 0.018000000000000002,
     "slippage_rate_pct": 0.03,
@@ -860,7 +848,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-25T16:23:25.777319+00:00",
+    "generated_at": "2026-05-26T00:44:35.445336+00:00",
     "version": "1.1.0"
   }
 }
