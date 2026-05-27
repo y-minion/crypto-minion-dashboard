@@ -16,7 +16,7 @@
     "available_balance": 0.13,
     "account_im_rate": 0.0,
     "account_mm_rate": 0.0,
-    "total_available_balance": 0.1261893
+    "total_available_balance": 0.12641984
   },
   "daily_series": [
     {
@@ -517,7 +517,7 @@
       "futures_price": 662.7,
       "position_value_usdt": 245.199,
       "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 24.8,
+      "hold_hours": 24.9,
       "estimated_funding_earned": 0.0,
       "entered_at": "2026-05-25 23:17:25"
     }
@@ -851,7 +851,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-27T00:03:27.070041+00:00",
+    "generated_at": "2026-05-27T00:08:33.513323+00:00",
     "version": "1.1.0"
   }
 }
