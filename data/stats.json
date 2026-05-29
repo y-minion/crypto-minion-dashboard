@@ -6,8 +6,8 @@
     "estimated_slippage": 0.0,
     "total_trade_pnl": -4.1333272563,
     "net_profit": 0.8689008236999998,
-    "closed_trade_count": 45,
-    "open_trade_count": 1,
+    "closed_trade_count": 46,
+    "open_trade_count": 0,
     "funding_7d": 0.15690874,
     "projected_apr_pct": 0.0,
     "operating_days": 64,
@@ -16,7 +16,7 @@
     "available_balance": 0.13,
     "account_im_rate": 0.0,
     "account_mm_rate": 0.0,
-    "total_available_balance": 0.12630283
+    "total_available_balance": 0.12814997
   },
   "daily_series": [
     {
@@ -506,22 +506,17 @@
       "fees_paid": 2.205419484,
       "net": -2.046391764,
       "cumulative_net": 0.8689008237000002
-    }
-  ],
-  "open_positions": [
+    },
     {
-      "id": 2652,
-      "symbol": "BNB/USDT:USDT",
-      "quantity": 0.37,
-      "spot_price": 662.7,
-      "futures_price": 662.7,
-      "position_value_usdt": 245.199,
-      "funding_rate_at_entry_pct": 0.01,
-      "hold_hours": 80.9,
-      "estimated_funding_earned": 0.0,
-      "entered_at": "2026-05-25 23:17:25"
+      "date": "2026-05-29",
+      "funding_income": 0.0,
+      "trade_pnl": 0.0,
+      "fees_paid": 0.0,
+      "net": 0.0,
+      "cumulative_net": 0.8689008237000002
     }
   ],
+  "open_positions": [],
   "recent_funding": [
     {
       "tran_id": "cd31f5b9-8d1c-4abd-9384-8a2310a301c0",
@@ -851,7 +846,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-29T08:08:42.263007+00:00",
+    "generated_at": "2026-05-29T15:53:31.044909+00:00",
     "version": "1.1.0"
   }
 }
