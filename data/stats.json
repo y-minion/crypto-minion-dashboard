@@ -8,15 +8,15 @@
     "net_profit": 0.8689008236999998,
     "closed_trade_count": 46,
     "open_trade_count": 0,
-    "funding_7d": 0.17220816,
+    "funding_7d": 0.15902771999999998,
     "projected_apr_pct": 0.0,
     "operating_days": 66,
     "round_trip_fee_pct": 0.246,
-    "total_equity": 0.17,
-    "available_balance": 0.13,
+    "total_equity": 0.18,
+    "available_balance": 0.14,
     "account_im_rate": 0.0,
     "account_mm_rate": 0.0,
-    "total_available_balance": 0.13365308
+    "total_available_balance": 0.13609362
   },
   "daily_series": [
     {
@@ -846,7 +846,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-05-31T16:07:18.758744+00:00",
+    "generated_at": "2026-06-01T00:01:03.927419+00:00",
     "version": "1.1.0"
   }
 }
