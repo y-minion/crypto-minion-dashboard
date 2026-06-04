@@ -10,13 +10,13 @@
     "open_trade_count": 0,
     "funding_7d": 0.0,
     "projected_apr_pct": 0.0,
-    "operating_days": 69,
+    "operating_days": 70,
     "round_trip_fee_pct": 0.246,
     "total_equity": 0.11,
-    "available_balance": 0.09,
+    "available_balance": 0.08,
     "account_im_rate": 0.0,
     "account_mm_rate": 0.0,
-    "total_available_balance": 0.08607875
+    "total_available_balance": 0.08071358
   },
   "daily_series": [
     {
@@ -846,7 +846,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-06-04T00:07:14.955819+00:00",
+    "generated_at": "2026-06-04T08:06:36.248103+00:00",
     "version": "1.1.0"
   }
 }
