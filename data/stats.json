@@ -13,10 +13,10 @@
     "operating_days": 0,
     "round_trip_fee_pct": 0.246,
     "total_equity": 0.1,
-    "available_balance": 0.08,
+    "available_balance": 0.07,
     "account_im_rate": 0.0,
     "account_mm_rate": 0.0,
-    "total_available_balance": 0.07516143
+    "total_available_balance": 0.07492529
   },
   "daily_series": [],
   "open_positions": [],
@@ -32,7 +32,7 @@
   },
   "symbol_breakdown": [],
   "meta": {
-    "generated_at": "2026-06-14T00:06:06.868334+00:00",
+    "generated_at": "2026-06-14T08:09:49.816411+00:00",
     "version": "1.1.0"
   }
 }
