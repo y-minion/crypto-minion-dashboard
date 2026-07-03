@@ -398,3 +398,179 @@ async function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+// ══════════════════════════════════════════════════════════════════════
+// 🧪 페이퍼 트레이딩 (Paper v2) — data/paper_stats.json
+// 파일이 없으면(아직 미수집) 섹션 전체를 숨긴 채 조용히 넘어간다.
+// ══════════════════════════════════════════════════════════════════════
+const PAPER_DATA_URL = 'data/paper_stats.json';
+
+function fmtSize(n) {
+  return '$' + Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
+}
+
+function renderPaperCards(portfolios) {
+  const wrap = document.getElementById('paper-cards');
+  wrap.innerHTML = portfolios.map(p => {
+    const net = p.net_pnl ?? 0;
+    const cls = net >= 0 ? 'positive' : 'negative';
+    const aprTxt = p.apr_pct == null ? '측정 중' : fmtPct(p.apr_pct, 2) + ' 연환산';
+    const fundNet = (p.funding_income ?? 0) - (p.funding_cost ?? 0);
+    return `
+    <div class="card ${net >= 0 ? 'card-green' : 'card-red'}">
+      <div class="card-icon">🧪</div>
+      <div class="card-body">
+        <div class="card-label">가상 포트폴리오 ${fmtSize(p.size_usd)}</div>
+        <div class="card-value ${cls}">${fmt$(net, 4)} <span style="font-size:0.7em">(${fmtPct(p.net_pnl_pct ?? 0, 3)})</span></div>
+        <div class="card-sub">에쿼티 ${fmt$(p.equity, 2)} · 펀딩 ${fmt$(fundNet, 4)} · 수수료 ${fmt$(p.fees ?? 0, 4)}</div>
+        <div class="card-sub">${aprTxt} · 오픈 ${p.open_count}개</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderPaperEquityChart(portfolios) {
+  const colors = [PALETTE.blue, PALETTE.purple, PALETTE.teal, PALETTE.orange];
+  const datasets = portfolios.map((p, i) => ({
+    label: `${fmtSize(p.size_usd)} 포트폴리오`,
+    data: (p.equity_series || []).map(pt => ({
+      x: pt.ts_ms,
+      y: pt.net_pnl != null ? (pt.net_pnl / p.size_usd) * 100 : null,
+    })),
+    borderColor: colors[i % colors.length],
+    backgroundColor: 'transparent',
+    borderWidth: 2,
+    pointRadius: 0,
+    tension: 0.25,
+  }));
+
+  new Chart(document.getElementById('chart-paper-equity'), {
+    type: 'line',
+    data: { datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      scales: {
+        x: {
+          type: 'linear',
+          ticks: {
+            maxTicksLimit: 8,
+            callback: v => new Date(v).toLocaleDateString('ko-KR', {
+              month: '2-digit', day: '2-digit', timeZone: 'Asia/Seoul',
+            }),
+          },
+          grid: { color: 'hsl(220 15% 18%)' },
+        },
+        y: {
+          ticks: { callback: v => v.toFixed(3) + '%' },
+          grid: { color: 'hsl(220 15% 18%)' },
+        },
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            title: items => new Date(items[0].parsed.x).toLocaleString('ko-KR', {
+              timeZone: 'Asia/Seoul', hour12: false,
+            }),
+            label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y?.toFixed(4)}%`,
+          },
+        },
+      },
+    },
+  });
+}
+
+function renderPaperPositions(portfolios) {
+  const rows = [];
+  for (const p of portfolios) {
+    for (const pos of p.open_positions || []) {
+      rows.push(`
+      <tr>
+        <td class="mono">${fmtSize(p.size_usd)}</td>
+        <td><strong style="color:var(--text-primary)">${pos.symbol}</strong>${pos.spot_venue ? ` <span style="color:var(--text-muted);font-size:0.75rem">(+${pos.spot_venue} 현물)</span>` : ''}</td>
+        <td>${pos.leg_type}</td>
+        <td class="mono">${pos.qty ?? '—'}</td>
+        <td class="mono">${pos.entry_price ?? '—'}</td>
+        <td class="mono">${fmt$(pos.required_cash, 2)}</td>
+        <td style="color:var(--text-muted);font-size:0.78rem">${fmtDatetime(pos.ts_opened_ms)}</td>
+      </tr>`);
+    }
+  }
+  const tbody = document.getElementById('paper-positions-tbody');
+  document.getElementById('paper-positions-count').textContent = `${rows.length} 개`;
+  tbody.innerHTML = rows.length ? rows.join('')
+    : '<tr><td colspan="7" class="empty-row">포지션 없음</td></tr>';
+}
+
+function renderPaperWatchlist(watchlist) {
+  const tbody = document.getElementById('paper-watchlist-tbody');
+  if (!watchlist || !watchlist.length) {
+    tbody.innerHTML = '<tr><td colspan="6" class="empty-row">데이터 없음</td></tr>';
+    return;
+  }
+  const mark = ok => ok === true
+    ? '<span class="positive">✓</span>'
+    : ok === false ? '<span class="negative">✗</span>' : '—';
+  const badge = st => st === 'PASS'
+    ? '<span class="badge badge-green">PASS</span>'
+    : st === 'FAIL' ? '<span class="badge badge-sample">FAIL</span>'
+    : '<span class="badge badge-blue">UNKNOWN</span>';
+  tbody.innerHTML = watchlist.map(w => `
+    <tr>
+      <td><strong style="color:var(--text-primary)">${w.base}</strong></td>
+      <td>${mark(w.gates?.identity)}</td>
+      <td>${mark(w.gates?.transfer_ops)}</td>
+      <td>${mark(w.gates?.funding_edge)}</td>
+      <td>${mark(w.gates?.fillable)}</td>
+      <td>${badge(w.gate_status)}</td>
+    </tr>`).join('');
+}
+
+function renderPaperClosed(portfolios) {
+  const rows = [];
+  for (const p of portfolios) {
+    for (const c of p.closed_recent || []) {
+      const cls = (c.realized_pnl ?? 0) >= 0 ? 'positive' : 'negative';
+      rows.push(`
+      <tr>
+        <td class="mono">${fmtSize(p.size_usd)}</td>
+        <td><strong style="color:var(--text-primary)">${c.symbol}</strong></td>
+        <td class="mono ${cls}">${fmt$(c.realized_pnl)}</td>
+        <td style="color:var(--text-muted)">${c.exit_reason ?? '—'}</td>
+        <td style="color:var(--text-muted);font-size:0.78rem">${fmtDatetime(c.exit_ts_ms)}</td>
+      </tr>`);
+    }
+  }
+  document.getElementById('paper-closed-tbody').innerHTML = rows.length
+    ? rows.join('') : '<tr><td colspan="5" class="empty-row">청산 내역 없음</td></tr>';
+}
+
+async function initPaper() {
+  try {
+    const resp = await fetch(PAPER_DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) return; // 페이퍼 데이터 미수집: 섹션 숨김 유지
+    const d = await resp.json();
+    document.getElementById('paper-section').style.display = '';
+
+    const regime = d.regime?.state || '—';
+    const anchor = d.anchor?.net_apr_pct;
+    document.getElementById('paper-regime').textContent =
+      `레짐 ${regime}` + (anchor != null ? ` · 베이시스 ${fmtPct(anchor, 2)}` : '')
+      + (d.earn_apr_pct != null ? ` · Earn ${fmtPct(d.earn_apr_pct, 2)}` : '');
+    if (d.meta?.generated_at) {
+      document.getElementById('paper-updated').textContent =
+        '갱신 ' + fmtDatetime(d.meta.generated_at);
+    }
+
+    renderPaperCards(d.portfolios || []);
+    renderPaperEquityChart(d.portfolios || []);
+    renderPaperPositions(d.portfolios || []);
+    renderPaperWatchlist(d.watchlist);
+    renderPaperClosed(d.portfolios || []);
+  } catch (err) {
+    console.warn('페이퍼 데이터 로드 실패(미수집일 수 있음):', err);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', initPaper);

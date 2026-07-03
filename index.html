@@ -87,6 +87,102 @@
         </div>
       </section>
 
+      <!-- ── 페이퍼 트레이딩 (Paper v2) ─────────────────────────── -->
+      <section class="section" id="paper-section" style="display: none">
+        <div class="table-card">
+          <div class="table-header">
+            <h2 class="chart-title">🧪 페이퍼 트레이딩 — 실전 전 가상 검증 (Paper v2)</h2>
+            <div>
+              <span id="paper-regime" class="badge badge-blue">—</span>
+              <span id="paper-updated" class="badge badge-green">—</span>
+            </div>
+          </div>
+          <div class="cards-grid" id="paper-cards" style="margin-top: 14px"></div>
+        </div>
+
+        <div class="charts-row" style="margin-top: 18px">
+          <div class="chart-card">
+            <div class="chart-header">
+              <h2 class="chart-title">📈 페이퍼 누적 수익률 (자본 대비 %)</h2>
+            </div>
+            <div class="chart-wrap">
+              <canvas id="chart-paper-equity"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-card" style="margin-top: 18px">
+          <div class="table-header">
+            <h2 class="chart-title">🔓 페이퍼 오픈 포지션</h2>
+            <span id="paper-positions-count" class="badge badge-green">0 개</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>포트폴리오</th>
+                  <th>심볼</th>
+                  <th>유형</th>
+                  <th>수량</th>
+                  <th>진입가</th>
+                  <th>투입 자금</th>
+                  <th>진입 시각</th>
+                </tr>
+              </thead>
+              <tbody id="paper-positions-tbody">
+                <tr><td colspan="7" class="empty-row">포지션 없음</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card" style="margin-top: 18px">
+          <div class="table-header">
+            <h2 class="chart-title">📡 동적 워치리스트 게이트</h2>
+            <span class="badge badge-blue">10분마다 전종목 스캔</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>코인</th>
+                  <th>동일자산</th>
+                  <th>입출금</th>
+                  <th>펀딩엣지</th>
+                  <th>체결성</th>
+                  <th>상태</th>
+                </tr>
+              </thead>
+              <tbody id="paper-watchlist-tbody">
+                <tr><td colspan="6" class="empty-row">데이터 없음</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card" style="margin-top: 18px">
+          <div class="table-header">
+            <h2 class="chart-title">📁 페이퍼 청산 내역 (최근)</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>포트폴리오</th>
+                  <th>심볼</th>
+                  <th>실현 손익</th>
+                  <th>청산 사유</th>
+                  <th>청산 시각</th>
+                </tr>
+              </thead>
+              <tbody id="paper-closed-tbody">
+                <tr><td colspan="5" class="empty-row">청산 내역 없음</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       <!-- ── 차트 2개 ───────────────────────────────────────────── -->
       <section class="section charts-row">
         <!-- 일별 수익 바 차트 -->
