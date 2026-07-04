@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T07:37:02.515557+00:00",
+    "generated_at": "2026-07-04T07:52:01.892511+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1783150562848
+    "snapshot_ts_ms": 1783151461794
   },
   "regime": {
     "prev": "EARN",
@@ -14,10 +14,10 @@
     "symbol": "BTCUSDT-25SEP26",
     "days_to_expiry": 83.0,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 62970.0,
-    "gross_apr_pct": 3.359,
-    "net_apr_pct": 1.262,
-    "turnover_24h_usd": 159942
+    "fut_price": 62984.5,
+    "gross_apr_pct": 2.9,
+    "net_apr_pct": 1.032,
+    "turnover_24h_usd": 155955
   },
   "earn_apr_pct": 2.11,
   "watchlist": [
