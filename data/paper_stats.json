@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T06:52:02.206980+00:00",
+    "generated_at": "2026-07-04T07:07:02.129180+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1783147861449
+    "snapshot_ts_ms": 1783148762770
   },
   "regime": {
     "prev": "EARN",
@@ -15,19 +15,19 @@
     "days_to_expiry": 83.0,
     "delivery_ms": 1790323200000.0,
     "fut_price": 62962.6,
-    "gross_apr_pct": 3.239,
-    "net_apr_pct": 1.202,
-    "turnover_24h_usd": 160743
+    "gross_apr_pct": 3.469,
+    "net_apr_pct": 1.317,
+    "turnover_24h_usd": 160680
   },
   "earn_apr_pct": 2.11,
   "watchlist": [
     {
       "base": "PIPPIN",
-      "gate_status": "PASS",
+      "gate_status": "FAIL",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": true,
+        "funding_edge": false,
         "fillable": true
       }
     },
@@ -47,7 +47,7 @@
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": false,
+        "funding_edge": true,
         "fillable": false
       }
     }
