@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T08:07:02.383032+00:00",
+    "generated_at": "2026-07-04T08:22:02.081085+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1783152362440
+    "snapshot_ts_ms": 1783153261695
   },
   "regime": {
     "prev": "EARN",
@@ -14,10 +14,10 @@
     "symbol": "BTCUSDT-25SEP26",
     "days_to_expiry": 83.0,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 63064.4,
-    "gross_apr_pct": 3.786,
-    "net_apr_pct": 1.475,
-    "turnover_24h_usd": 152717
+    "fut_price": 63009.9,
+    "gross_apr_pct": 3.196,
+    "net_apr_pct": 1.18,
+    "turnover_24h_usd": 150664
   },
   "earn_apr_pct": 2.11,
   "watchlist": [
@@ -33,22 +33,12 @@
     },
     {
       "base": "MAGMA",
-      "gate_status": "FAIL",
+      "gate_status": "PASS",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": false,
+        "funding_edge": true,
         "fillable": true
-      }
-    },
-    {
-      "base": "BLESS",
-      "gate_status": "FAIL",
-      "gates": {
-        "identity": true,
-        "transfer_ops": true,
-        "funding_edge": false,
-        "fillable": false
       }
     },
     {
@@ -59,6 +49,26 @@
         "transfer_ops": true,
         "funding_edge": true,
         "fillable": false
+      }
+    },
+    {
+      "base": "O",
+      "gate_status": "FAIL",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": false,
+        "fillable": true
+      }
+    },
+    {
+      "base": "FARTCOIN",
+      "gate_status": "PASS",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": true,
+        "fillable": true
       }
     }
   ],
