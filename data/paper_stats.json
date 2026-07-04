@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-03T15:52:57.546259+00:00",
+    "generated_at": "2026-07-04T05:52:02.390444+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1783093922483
+    "snapshot_ts_ms": 1783144262352
   },
   "regime": {
     "prev": "EARN",
@@ -12,52 +12,42 @@
   },
   "anchor": {
     "symbol": "BTCUSDT-25SEP26",
-    "days_to_expiry": 83.7,
+    "days_to_expiry": 83.1,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 62335.4,
-    "gross_apr_pct": 3.188,
-    "net_apr_pct": 1.18,
-    "turnover_24h_usd": 231400
+    "fut_price": 63126.7,
+    "gross_apr_pct": 4.199,
+    "net_apr_pct": 1.682,
+    "turnover_24h_usd": 160423
   },
-  "earn_apr_pct": 2.09,
+  "earn_apr_pct": 2.1,
   "watchlist": [
     {
       "base": "PIPPIN",
-      "gate_status": "FAIL",
+      "gate_status": "PASS",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": false,
-        "fillable": false
-      }
-    },
-    {
-      "base": "AKE",
-      "gate_status": "FAIL",
-      "gates": {
-        "identity": true,
-        "transfer_ops": true,
-        "funding_edge": false,
-        "fillable": false
+        "funding_edge": true,
+        "fillable": true
       }
     },
     {
       "base": "MAGMA",
-      "gate_status": "FAIL",
+      "gate_status": "PASS",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": false,
-        "fillable": false
+        "funding_edge": true,
+        "fillable": true
       }
     },
     {
-      "base": "MOVE",
+      "base": "BLESS",
       "gate_status": "FAIL",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": false,
+        "funding_edge": true,
         "fillable": false
       }
     }
@@ -65,16 +55,16 @@
   "portfolios": [
     {
       "size_usd": 2000.0,
-      "equity": 1998.798867555668,
-      "net_pnl": -1.2011324443319609,
-      "net_pnl_pct": -0.06005662221659805,
-      "apr_pct": -15.234429678191962,
-      "realized_pnl": -0.4335908966112223,
-      "funding_income": 0.0,
+      "equity": 1994.7911796194087,
+      "net_pnl": -5.208820380591305,
+      "net_pnl_pct": -0.2604410190295653,
+      "apr_pct": -47.02433297928942,
+      "realized_pnl": -4.676850660270185,
+      "funding_income": 0.2533214817292,
       "funding_cost": 0.0,
-      "fees": 0.23523080487999998,
+      "fees": 1.1875680490000002,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1783093922483,
+      "last_ts_ms": 1783144262352,
       "open_count": 2,
       "open_positions": [
         {
@@ -89,16 +79,88 @@
         },
         {
           "leg_type": "cashcarry",
-          "symbol": "AKEUSDT",
-          "base": "AKE",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
           "spot_venue": "gate",
-          "qty": 205700.0,
-          "entry_price": 0.0004864312591152163,
-          "required_cash": 200.05740197416003,
-          "ts_opened_ms": 1783093561789
+          "qty": 139.0,
+          "entry_price": 0.7194194244604317,
+          "required_cash": 199.94472996559998,
+          "ts_opened_ms": 1783141982179
         }
       ],
       "closed_recent": [
+        {
+          "leg_type": "cashcarry",
+          "symbol": "EPICUSDT",
+          "base": "EPIC",
+          "realized_pnl": -0.3919564032000313,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783139642538,
+          "exit_ts_ms": 1783141442306
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -0.6810624116800134,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783122123714,
+          "exit_ts_ms": 1783139642538
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -1.0311275516400218,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783110541751,
+          "exit_ts_ms": 1783122062387
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -0.4580915170000063,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783110121672,
+          "exit_ts_ms": 1783110302188
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -0.01409599539999969,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783109582444,
+          "exit_ts_ms": 1783110062306
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -0.6020293779200283,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783108502416,
+          "exit_ts_ms": 1783109522871
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -0.6144019336799985,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783101361792,
+          "exit_ts_ms": 1783107902539
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "AKEUSDT",
+          "base": "AKE",
+          "realized_pnl": -0.7606384810000026,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783093561789,
+          "exit_ts_ms": 1783101361792
+        },
         {
           "leg_type": "cashcarry",
           "symbol": "USUSDT",
@@ -281,24 +343,94 @@
           "net_pnl": -0.49625185222521395
         },
         {
-          "ts_ms": 1783093922483,
-          "equity": 1998.798867555668,
-          "net_pnl": -1.2011324443319609
+          "ts_ms": 1783094341901,
+          "equity": 1999.2698787802851,
+          "net_pnl": -0.7301212197148743
+        },
+        {
+          "ts_ms": 1783097941782,
+          "equity": 1999.1485991089526,
+          "net_pnl": -0.8514008910474331
+        },
+        {
+          "ts_ms": 1783101541624,
+          "equity": 1998.6153473523614,
+          "net_pnl": -1.3846526476386316
+        },
+        {
+          "ts_ms": 1783105142071,
+          "equity": 1998.3672626448204,
+          "net_pnl": -1.6327373551796427
+        },
+        {
+          "ts_ms": 1783108741643,
+          "equity": 1997.905054203647,
+          "net_pnl": -2.094945796352931
+        },
+        {
+          "ts_ms": 1783112341388,
+          "equity": 1996.6763281893498,
+          "net_pnl": -3.3236718106502394
+        },
+        {
+          "ts_ms": 1783115941364,
+          "equity": 1996.3235058887622,
+          "net_pnl": -3.6764941112378438
+        },
+        {
+          "ts_ms": 1783119541675,
+          "equity": 1996.5618196736425,
+          "net_pnl": -3.4381803263574966
+        },
+        {
+          "ts_ms": 1783123141675,
+          "equity": 1995.2074948409509,
+          "net_pnl": -4.792505159049142
+        },
+        {
+          "ts_ms": 1783126741793,
+          "equity": 1995.4794907313635,
+          "net_pnl": -4.520509268636488
+        },
+        {
+          "ts_ms": 1783130341877,
+          "equity": 1995.4390517815968,
+          "net_pnl": -4.560948218403155
+        },
+        {
+          "ts_ms": 1783133942085,
+          "equity": 1995.2483090183962,
+          "net_pnl": -4.751690981603815
+        },
+        {
+          "ts_ms": 1783137541746,
+          "equity": 1996.8076981856345,
+          "net_pnl": -3.1923018143654645
+        },
+        {
+          "ts_ms": 1783141141619,
+          "equity": 1995.1564019892403,
+          "net_pnl": -4.843598010759706
+        },
+        {
+          "ts_ms": 1783144262352,
+          "equity": 1994.7911796194087,
+          "net_pnl": -5.208820380591305
         }
       ]
     },
     {
       "size_usd": 10000.0,
-      "equity": 9990.134604017667,
-      "net_pnl": -9.865395982333212,
-      "net_pnl_pct": -0.09865395982333212,
-      "apr_pct": -25.025330395427343,
-      "realized_pnl": -4.603760165735777,
-      "funding_income": 0.0,
+      "equity": 9960.33363677308,
+      "net_pnl": -39.6663632269192,
+      "net_pnl_pct": -0.396663632269192,
+      "apr_pct": -71.62021863569588,
+      "realized_pnl": -36.09392977151333,
+      "funding_income": 1.2694964011392,
       "funding_cost": 0.0,
-      "fees": 1.1763035572,
+      "fees": 5.350765920420001,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1783093922483,
+      "last_ts_ms": 1783144262352,
       "open_count": 2,
       "open_positions": [
         {
@@ -313,16 +445,79 @@
         },
         {
           "leg_type": "cashcarry",
-          "symbol": "AKEUSDT",
-          "base": "AKE",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
           "spot_venue": "gate",
-          "qty": 1028300.0,
-          "entry_price": 0.0004862154429641155,
-          "required_cash": 1000.6310371463999,
-          "ts_opened_ms": 1783093561789
+          "qty": 695.0,
+          "entry_price": 0.7191962446043166,
+          "required_cash": 1000.1757198048801,
+          "ts_opened_ms": 1783141982179
         }
       ],
       "closed_recent": [
+        {
+          "leg_type": "cashcarry",
+          "symbol": "EPICUSDT",
+          "base": "EPIC",
+          "realized_pnl": -2.7902520288000345,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783139642538,
+          "exit_ts_ms": 1783141442306
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -4.375878669959861,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783122123714,
+          "exit_ts_ms": 1783139642538
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -7.398170142160048,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783110541751,
+          "exit_ts_ms": 1783122062387
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -1.8048878672401154,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783109582444,
+          "exit_ts_ms": 1783110302188
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -4.5982582097199325,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783108502416,
+          "exit_ts_ms": 1783109522871
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "MAGMAUSDT",
+          "base": "MAGMA",
+          "realized_pnl": -5.172682769520028,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783101361792,
+          "exit_ts_ms": 1783107902539
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "AKEUSDT",
+          "base": "AKE",
+          "realized_pnl": -6.839446137019967,
+          "exit_reason": "satellite smart-exit",
+          "ts_opened_ms": 1783093561789,
+          "exit_ts_ms": 1783101361792
+        },
         {
           "leg_type": "cashcarry",
           "symbol": "USUSDT",
@@ -505,9 +700,79 @@
           "net_pnl": -4.914646210598221
         },
         {
-          "ts_ms": 1783093922483,
-          "equity": 9990.134604017667,
-          "net_pnl": -9.865395982333212
+          "ts_ms": 1783094341901,
+          "equity": 9992.489167524023,
+          "net_pnl": -7.510832475976713
+        },
+        {
+          "ts_ms": 1783097941782,
+          "equity": 9991.878379078124,
+          "net_pnl": -8.121620921876456
+        },
+        {
+          "ts_ms": 1783101541624,
+          "equity": 9986.53424137419,
+          "net_pnl": -13.46575862581085
+        },
+        {
+          "ts_ms": 1783105142071,
+          "equity": 9985.287567527394,
+          "net_pnl": -14.712432472606451
+        },
+        {
+          "ts_ms": 1783108741643,
+          "equity": 9980.615065282216,
+          "net_pnl": -19.384934717783835
+        },
+        {
+          "ts_ms": 1783112341388,
+          "equity": 9973.828649794215,
+          "net_pnl": -26.17135020578462
+        },
+        {
+          "ts_ms": 1783115941364,
+          "equity": 9972.051066906051,
+          "net_pnl": -27.948933093948654
+        },
+        {
+          "ts_ms": 1783119541675,
+          "equity": 9973.245814133226,
+          "net_pnl": -26.754185866773696
+        },
+        {
+          "ts_ms": 1783123141675,
+          "equity": 9964.206496699047,
+          "net_pnl": -35.79350330095258
+        },
+        {
+          "ts_ms": 1783126741793,
+          "equity": 9965.570763338885,
+          "net_pnl": -34.42923666111528
+        },
+        {
+          "ts_ms": 1783130341877,
+          "equity": 9965.361729665274,
+          "net_pnl": -34.63827033472626
+        },
+        {
+          "ts_ms": 1783133942085,
+          "equity": 9964.399816577265,
+          "net_pnl": -35.60018342273543
+        },
+        {
+          "ts_ms": 1783137541746,
+          "equity": 9972.196843690814,
+          "net_pnl": -27.803156309186306
+        },
+        {
+          "ts_ms": 1783141141619,
+          "equity": 9963.207289846438,
+          "net_pnl": -36.79271015356244
+        },
+        {
+          "ts_ms": 1783144262352,
+          "equity": 9960.33363677308,
+          "net_pnl": -39.6663632269192
         }
       ]
     }
