@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-05T02:22:02.365506+00:00",
+    "generated_at": "2026-07-05T02:37:01.534843+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1783218062326
+    "snapshot_ts_ms": 1783218961690
   },
   "regime": {
     "prev": "EARN",
@@ -14,12 +14,12 @@
     "symbol": "BTCUSDT-25SEP26",
     "days_to_expiry": 82.2,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 63160.9,
-    "gross_apr_pct": 2.778,
-    "net_apr_pct": 0.967,
-    "turnover_24h_usd": 269799
+    "fut_price": 63230.4,
+    "gross_apr_pct": 3.215,
+    "net_apr_pct": 1.186,
+    "turnover_24h_usd": 271255
   },
-  "earn_apr_pct": 2.16,
+  "earn_apr_pct": 2.13,
   "watchlist": [
     {
       "base": "PIPPIN",
@@ -38,33 +38,23 @@
         "identity": true,
         "transfer_ops": true,
         "funding_edge": false,
-        "fillable": true
-      }
-    },
-    {
-      "base": "AKE",
-      "gate_status": "PASS",
-      "gates": {
-        "identity": true,
-        "transfer_ops": true,
-        "funding_edge": true,
-        "fillable": true
+        "fillable": false
       }
     }
   ],
   "portfolios": [
     {
       "size_usd": 2000.0,
-      "equity": 1994.89323338401,
-      "net_pnl": -5.1067666159899545,
-      "net_pnl_pct": -0.25533833079949775,
-      "apr_pct": -32.40904707525239,
-      "realized_pnl": -4.507806895671424,
+      "equity": 1994.8512388192012,
+      "net_pnl": -5.148761180798829,
+      "net_pnl_pct": -0.25743805903994144,
+      "apr_pct": -32.557706059778496,
+      "realized_pnl": -4.506771460480385,
       "funding_income": 0.3393255910015999,
       "funding_cost": 0.0,
       "fees": 1.1875680490000002,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1783218062326,
+      "last_ts_ms": 1783218961690,
       "open_count": 2,
       "open_positions": [
         {
@@ -513,24 +503,24 @@
           "net_pnl": -4.972334388969557
         },
         {
-          "ts_ms": 1783218062326,
-          "equity": 1994.89323338401,
-          "net_pnl": -5.1067666159899545
+          "ts_ms": 1783218961690,
+          "equity": 1994.8512388192012,
+          "net_pnl": -5.148761180798829
         }
       ]
     },
     {
       "size_usd": 10000.0,
-      "equity": 9960.749807810342,
-      "net_pnl": -39.250192189658264,
-      "net_pnl_pct": -0.3925019218965826,
-      "apr_pct": -49.8186591258879,
-      "realized_pnl": -35.34280873423339,
+      "equity": 9960.53868804744,
+      "net_pnl": -39.46131195256021,
+      "net_pnl_pct": -0.3946131195256021,
+      "apr_pct": -49.905977386402974,
+      "realized_pnl": -35.33877849713762,
       "funding_income": 1.6995169475012,
       "funding_cost": 0.0,
       "fees": 5.350765920420001,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1783218062326,
+      "last_ts_ms": 1783218961690,
       "open_count": 2,
       "open_positions": [
         {
@@ -970,9 +960,9 @@
           "net_pnl": -38.576347374855686
         },
         {
-          "ts_ms": 1783218062326,
-          "equity": 9960.749807810342,
-          "net_pnl": -39.250192189658264
+          "ts_ms": 1783218961690,
+          "equity": 9960.53868804744,
+          "net_pnl": -39.46131195256021
         }
       ]
     }
