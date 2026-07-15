@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T15:07:02.081244+00:00",
+    "generated_at": "2026-07-15T16:07:02.352683+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1784127962023
+    "snapshot_ts_ms": 1784131562579
   },
   "regime": {
     "prev": "EARN",
@@ -14,12 +14,12 @@
     "symbol": "BTCUSDT-25SEP26",
     "days_to_expiry": 71.7,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 65843.4,
-    "gross_apr_pct": 3.554,
-    "net_apr_pct": 1.293,
-    "turnover_24h_usd": 580748
+    "fut_price": 65790.1,
+    "gross_apr_pct": 4.153,
+    "net_apr_pct": 1.593,
+    "turnover_24h_usd": 571717
   },
-  "earn_apr_pct": 2.16,
+  "earn_apr_pct": 2.15,
   "watchlist": [
     {
       "base": "PIPPIN",
@@ -42,17 +42,7 @@
       }
     },
     {
-      "base": "M",
-      "gate_status": "FAIL",
-      "gates": {
-        "identity": true,
-        "transfer_ops": true,
-        "funding_edge": false,
-        "fillable": false
-      }
-    },
-    {
-      "base": "AKE",
+      "base": "XPIN",
       "gate_status": "PASS",
       "gates": {
         "identity": true,
@@ -60,21 +50,41 @@
         "funding_edge": true,
         "fillable": true
       }
+    },
+    {
+      "base": "LAB",
+      "gate_status": "PASS",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": true,
+        "fillable": true
+      }
+    },
+    {
+      "base": "US",
+      "gate_status": "FAIL",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": false,
+        "fillable": true
+      }
     }
   ],
   "portfolios": [
     {
       "size_usd": 2000.0,
-      "equity": 1996.4102277253874,
-      "net_pnl": -3.589772274612642,
-      "net_pnl_pct": -0.1794886137306321,
-      "apr_pct": -4.886524690421284,
-      "realized_pnl": -3.045182554303441,
-      "funding_income": 0.8084902469997001,
+      "equity": 1996.4282430739172,
+      "net_pnl": -3.5717569260827986,
+      "net_pnl_pct": -0.17858784630413993,
+      "apr_pct": -4.846935719999986,
+      "realized_pnl": -3.0355072057731536,
+      "funding_income": 0.8140078229997001,
       "funding_cost": 0.0,
       "fees": 1.1875680490000002,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1784127962023,
+      "last_ts_ms": 1784131562579,
       "open_count": 2,
       "open_positions": [
         {
@@ -1788,24 +1798,29 @@
           "net_pnl": -3.545879067617534
         },
         {
-          "ts_ms": 1784127962023,
-          "equity": 1996.4102277253874,
-          "net_pnl": -3.589772274612642
+          "ts_ms": 1784131142225,
+          "equity": 1996.3999010821285,
+          "net_pnl": -3.6000989178714917
+        },
+        {
+          "ts_ms": 1784131562579,
+          "equity": 1996.4282430739172,
+          "net_pnl": -3.5717569260827986
         }
       ]
     },
     {
       "size_usd": 10000.0,
-      "equity": 9967.174604632837,
-      "net_pnl": -32.825395367162855,
-      "net_pnl_pct": -0.3282539536716286,
-      "apr_pct": -8.936617292905584,
-      "realized_pnl": -29.1898619117595,
-      "funding_income": 4.045340227491701,
+      "equity": 9967.260087391618,
+      "net_pnl": -32.73991260838193,
+      "net_pnl_pct": -0.3273991260838193,
+      "apr_pct": -8.885725158530326,
+      "realized_pnl": -29.146079152978373,
+      "funding_income": 4.072928107491702,
       "funding_cost": 0.0,
       "fees": 5.350765920420001,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1784127962023,
+      "last_ts_ms": 1784131562579,
       "open_count": 2,
       "open_positions": [
         {
@@ -3510,9 +3525,14 @@
           "net_pnl": -32.60539271199741
         },
         {
-          "ts_ms": 1784127962023,
-          "equity": 9967.174604632837,
-          "net_pnl": -32.825395367162855
+          "ts_ms": 1784131142225,
+          "equity": 9967.118913757904,
+          "net_pnl": -32.88108624209599
+        },
+        {
+          "ts_ms": 1784131562579,
+          "equity": 9967.260087391618,
+          "net_pnl": -32.73991260838193
         }
       ]
     }
