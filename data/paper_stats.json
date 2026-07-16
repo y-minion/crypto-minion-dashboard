@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-16T17:07:02.133205+00:00",
+    "generated_at": "2026-07-16T18:07:02.262687+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1784221562690
+    "snapshot_ts_ms": 1784225163004
   },
   "regime": {
     "prev": "EARN",
@@ -14,12 +14,12 @@
     "symbol": "BTCUSDT-25SEP26",
     "days_to_expiry": 70.6,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 64839.9,
-    "gross_apr_pct": 3.869,
-    "net_apr_pct": 1.444,
-    "turnover_24h_usd": 288474
+    "fut_price": 64583.7,
+    "gross_apr_pct": 4.027,
+    "net_apr_pct": 1.522,
+    "turnover_24h_usd": 275226
   },
-  "earn_apr_pct": 2.08,
+  "earn_apr_pct": 2.07,
   "watchlist": [
     {
       "base": "PIPPIN",
@@ -52,6 +52,16 @@
       }
     },
     {
+      "base": "AKE",
+      "gate_status": "PASS",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": true,
+        "fillable": true
+      }
+    },
+    {
       "base": "H",
       "gate_status": "PASS",
       "gates": {
@@ -65,16 +75,16 @@
   "portfolios": [
     {
       "size_usd": 2000.0,
-      "equity": 1996.5035267908445,
-      "net_pnl": -3.4964732091555106,
-      "net_pnl_pct": -0.17482366045777553,
-      "apr_pct": -4.403685147376347,
-      "realized_pnl": -2.8991334888440816,
+      "equity": 1996.568482420432,
+      "net_pnl": -3.4315175795679806,
+      "net_pnl_pct": -0.17157587897839904,
+      "apr_pct": -4.309482856245606,
+      "realized_pnl": -2.8950978592564436,
       "funding_income": 0.8479302459997,
       "funding_cost": 0.0,
       "fees": 1.1875680490000002,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1784221562690,
+      "last_ts_ms": 1784225163004,
       "open_count": 2,
       "open_positions": [
         {
@@ -182,11 +192,6 @@
         }
       ],
       "equity_series": [
-        {
-          "ts_ms": 1783015141823,
-          "equity": 2000.0189871757557,
-          "net_pnl": 0.018987175755682983
-        },
         {
           "ts_ms": 1783018741962,
           "equity": 2000.0204990460843,
@@ -1858,24 +1863,29 @@
           "net_pnl": -3.520524396584733
         },
         {
-          "ts_ms": 1784221562690,
-          "equity": 1996.5035267908445,
-          "net_pnl": -3.4964732091555106
+          "ts_ms": 1784224741792,
+          "equity": 1996.6540103968866,
+          "net_pnl": -3.3459896031133667
+        },
+        {
+          "ts_ms": 1784225163004,
+          "equity": 1996.568482420432,
+          "net_pnl": -3.4315175795679806
         }
       ]
     },
     {
       "size_usd": 10000.0,
-      "equity": 9967.521761627433,
-      "net_pnl": -32.47823837256692,
-      "net_pnl_pct": -0.3247823837256692,
-      "apr_pct": -8.181040001091013,
-      "realized_pnl": -28.578954917163955,
+      "equity": 9967.84194698003,
+      "net_pnl": -32.158053019969884,
+      "net_pnl_pct": -0.32158053019969884,
+      "apr_pct": -8.077159738592677,
+      "realized_pnl": -28.563369564563697,
       "funding_income": 4.2425402224917015,
       "funding_cost": 0.0,
       "fees": 5.350765920420001,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1784221562690,
+      "last_ts_ms": 1784225163004,
       "open_count": 2,
       "open_positions": [
         {
@@ -1974,11 +1984,6 @@
         }
       ],
       "equity_series": [
-        {
-          "ts_ms": 1783015141823,
-          "equity": 10000.094935878771,
-          "net_pnl": 0.09493587877113896
-        },
         {
           "ts_ms": 1783018741962,
           "equity": 10000.102495230412,
@@ -3650,9 +3655,14 @@
           "net_pnl": -32.59795794378806
         },
         {
-          "ts_ms": 1784221562690,
-          "equity": 9967.521761627433,
-          "net_pnl": -32.47823837256692
+          "ts_ms": 1784224741792,
+          "equity": 9968.270124187165,
+          "net_pnl": -31.729875812834507
+        },
+        {
+          "ts_ms": 1784225163004,
+          "equity": 9967.84194698003,
+          "net_pnl": -32.158053019969884
         }
       ]
     }
