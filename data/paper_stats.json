@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-17T21:07:02.775217+00:00",
+    "generated_at": "2026-07-17T22:07:02.432293+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1784322363082
+    "snapshot_ts_ms": 1784325962994
   },
   "regime": {
     "prev": "EARN",
@@ -12,12 +12,12 @@
   },
   "anchor": {
     "symbol": "BTCUSDT-25SEP26",
-    "days_to_expiry": 69.5,
+    "days_to_expiry": 69.4,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 64605.7,
-    "gross_apr_pct": 3.648,
-    "net_apr_pct": 1.325,
-    "turnover_24h_usd": 529368
+    "fut_price": 64531.5,
+    "gross_apr_pct": 3.765,
+    "net_apr_pct": 1.383,
+    "turnover_24h_usd": 538532
   },
   "earn_apr_pct": 2.0,
   "watchlist": [
@@ -62,22 +62,22 @@
       }
     },
     {
-      "base": "O",
-      "gate_status": "PASS",
+      "base": "BANK",
+      "gate_status": "FAIL",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": true,
+        "funding_edge": false,
         "fillable": true
       }
     },
     {
-      "base": "US",
-      "gate_status": "PASS",
+      "base": "UB",
+      "gate_status": "FAIL",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": true,
+        "funding_edge": false,
         "fillable": true
       }
     }
