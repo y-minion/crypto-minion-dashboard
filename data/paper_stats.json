@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T04:07:02.506191+00:00",
+    "generated_at": "2026-07-18T05:07:02.600321+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1784347562807
+    "snapshot_ts_ms": 1784351162871
   },
   "regime": {
     "prev": "EARN",
@@ -12,12 +12,12 @@
   },
   "anchor": {
     "symbol": "BTCUSDT-25SEP26",
-    "days_to_expiry": 69.2,
+    "days_to_expiry": 69.1,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 64442.8,
-    "gross_apr_pct": 3.672,
-    "net_apr_pct": 1.335,
-    "turnover_24h_usd": 553013
+    "fut_price": 64424.2,
+    "gross_apr_pct": 3.759,
+    "net_apr_pct": 1.378,
+    "turnover_24h_usd": 548928
   },
   "earn_apr_pct": 1.99,
   "watchlist": [
@@ -28,7 +28,7 @@
         "identity": true,
         "transfer_ops": true,
         "funding_edge": false,
-        "fillable": false
+        "fillable": true
       }
     },
     {
@@ -42,16 +42,6 @@
       }
     },
     {
-      "base": "H",
-      "gate_status": "FAIL",
-      "gates": {
-        "identity": true,
-        "transfer_ops": true,
-        "funding_edge": false,
-        "fillable": true
-      }
-    },
-    {
       "base": "AKE",
       "gate_status": "PASS",
       "gates": {
@@ -62,7 +52,17 @@
       }
     },
     {
-      "base": "O",
+      "base": "H",
+      "gate_status": "PASS",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": true,
+        "fillable": true
+      }
+    },
+    {
+      "base": "USELESS",
       "gate_status": "FAIL",
       "gates": {
         "identity": true,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "base": "US",
+      "base": "UB",
       "gate_status": "FAIL",
       "gates": {
         "identity": true,
