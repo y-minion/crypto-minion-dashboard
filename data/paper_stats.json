@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T07:07:02.968596+00:00",
+    "generated_at": "2026-07-18T08:07:02.919533+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1784358361543
+    "snapshot_ts_ms": 1784361961901
   },
   "regime": {
     "prev": "EARN",
@@ -14,12 +14,12 @@
     "symbol": "BTCUSDT-25SEP26",
     "days_to_expiry": 69.0,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 64457.1,
-    "gross_apr_pct": 3.923,
-    "net_apr_pct": 1.459,
-    "turnover_24h_usd": 540205
+    "fut_price": 64415.1,
+    "gross_apr_pct": 3.819,
+    "net_apr_pct": 1.407,
+    "turnover_24h_usd": 498187
   },
-  "earn_apr_pct": 1.98,
+  "earn_apr_pct": 1.97,
   "watchlist": [
     {
       "base": "PIPPIN",
@@ -42,12 +42,12 @@
       }
     },
     {
-      "base": "AKE",
-      "gate_status": "PASS",
+      "base": "O",
+      "gate_status": "FAIL",
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": true,
+        "funding_edge": false,
         "fillable": true
       }
     },
