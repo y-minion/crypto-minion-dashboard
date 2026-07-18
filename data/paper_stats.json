@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T09:07:02.519924+00:00",
+    "generated_at": "2026-07-18T10:07:04.924042+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1784365562471
+    "snapshot_ts_ms": 1784369163010
   },
   "regime": {
     "prev": "EARN",
@@ -12,12 +12,12 @@
   },
   "anchor": {
     "symbol": "BTCUSDT-25SEP26",
-    "days_to_expiry": 69.0,
+    "days_to_expiry": 68.9,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 64440.6,
-    "gross_apr_pct": 3.769,
-    "net_apr_pct": 1.382,
-    "turnover_24h_usd": 495613
+    "fut_price": 64431.8,
+    "gross_apr_pct": 3.639,
+    "net_apr_pct": 1.316,
+    "turnover_24h_usd": 494815
   },
   "earn_apr_pct": 1.97,
   "watchlist": [
@@ -28,7 +28,7 @@
         "identity": true,
         "transfer_ops": true,
         "funding_edge": false,
-        "fillable": true
+        "fillable": false
       }
     },
     {
@@ -38,16 +38,6 @@
         "identity": true,
         "transfer_ops": true,
         "funding_edge": false,
-        "fillable": false
-      }
-    },
-    {
-      "base": "AVAAI",
-      "gate_status": "FAIL",
-      "gates": {
-        "identity": true,
-        "transfer_ops": true,
-        "funding_edge": true,
         "fillable": false
       }
     },
@@ -62,6 +52,16 @@
       }
     },
     {
+      "base": "AVAAI",
+      "gate_status": "FAIL",
+      "gates": {
+        "identity": false,
+        "transfer_ops": true,
+        "funding_edge": false,
+        "fillable": false
+      }
+    },
+    {
       "base": "H",
       "gate_status": "PASS",
       "gates": {
@@ -72,7 +72,7 @@
       }
     },
     {
-      "base": "UB",
+      "base": "O",
       "gate_status": "PASS",
       "gates": {
         "identity": true,
