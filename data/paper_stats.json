@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-21T15:07:02.725272+00:00",
+    "generated_at": "2026-07-21T16:07:03.546057+00:00",
     "source": "paper_v2",
-    "snapshot_ts_ms": 1784646362825
+    "snapshot_ts_ms": 1784649962909
   },
   "regime": {
     "prev": "EARN",
@@ -14,12 +14,12 @@
     "symbol": "BTCUSDT-25SEP26",
     "days_to_expiry": 65.7,
     "delivery_ms": 1790323200000.0,
-    "fut_price": 67169.2,
-    "gross_apr_pct": 3.959,
-    "net_apr_pct": 1.452,
-    "turnover_24h_usd": 1225778
+    "fut_price": 67232.3,
+    "gross_apr_pct": 4.129,
+    "net_apr_pct": 1.536,
+    "turnover_24h_usd": 905091
   },
-  "earn_apr_pct": 2.15,
+  "earn_apr_pct": 2.17,
   "watchlist": [
     {
       "base": "PIPPIN",
@@ -28,7 +28,8 @@
         "identity": true,
         "transfer_ops": true,
         "funding_edge": false,
-        "fillable": true
+        "fillable": true,
+        "funding_edge_maker": false
       }
     },
     {
@@ -38,7 +39,8 @@
         "identity": true,
         "transfer_ops": true,
         "funding_edge": false,
-        "fillable": false
+        "fillable": false,
+        "funding_edge_maker": false
       }
     },
     {
@@ -47,34 +49,58 @@
       "gates": {
         "identity": true,
         "transfer_ops": true,
-        "funding_edge": false,
-        "fillable": false
+        "funding_edge": true,
+        "fillable": false,
+        "funding_edge_maker": true
       }
     },
     {
-      "base": "HANA",
+      "base": "LAB",
+      "gate_status": "PASS",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": true,
+        "fillable": true,
+        "funding_edge_maker": true
+      }
+    },
+    {
+      "base": "O",
       "gate_status": "FAIL",
       "gates": {
         "identity": true,
         "transfer_ops": true,
         "funding_edge": false,
-        "fillable": false
+        "fillable": true,
+        "funding_edge_maker": true
+      }
+    },
+    {
+      "base": "FARTCOIN",
+      "gate_status": "FAIL",
+      "gates": {
+        "identity": true,
+        "transfer_ops": true,
+        "funding_edge": false,
+        "fillable": true,
+        "funding_edge_maker": true
       }
     }
   ],
   "portfolios": [
     {
       "size_usd": 2000.0,
-      "equity": 1997.306429356049,
-      "net_pnl": -2.693570643951034,
-      "net_pnl_pct": -0.13467853219755171,
-      "apr_pct": -2.5329928565776036,
-      "realized_pnl": -2.255740923633729,
-      "funding_income": 1.0315054802973,
+      "equity": 1997.2567622253766,
+      "net_pnl": -2.743237774623367,
+      "net_pnl_pct": -0.13716188873116836,
+      "apr_pct": -2.5741722011364314,
+      "realized_pnl": -2.23032805430552,
+      "funding_income": 1.0527386396161,
       "funding_cost": 0.0,
       "fees": 1.1875680490000002,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1784646362825,
+      "last_ts_ms": 1784649962909,
       "open_count": 2,
       "open_positions": [
         {
@@ -182,11 +208,6 @@
         }
       ],
       "equity_series": [
-        {
-          "ts_ms": 1783439941745,
-          "equity": 1995.3139362485144,
-          "net_pnl": -4.6860637514855625
-        },
         {
           "ts_ms": 1783443542346,
           "equity": 1995.3299348952148,
@@ -1783,24 +1804,40 @@
           "net_pnl": -2.7453839591378255
         },
         {
-          "ts_ms": 1784646362825,
-          "equity": 1997.306429356049,
-          "net_pnl": -2.693570643951034
+          "ts_ms": 1784649541778,
+          "equity": 1997.196189001878,
+          "net_pnl": -2.8038109981218895
+        },
+        {
+          "ts_ms": 1784649962909,
+          "equity": 1997.2567622253766,
+          "net_pnl": -2.743237774623367
         }
-      ]
+      ],
+      "trailing_7d_apr_pct": 2.653195018993099,
+      "variant_flags": [],
+      "maker": {
+        "orders_placed": 0,
+        "pairs_filled": 0,
+        "entries_missed": 0,
+        "entries_unwound": 0,
+        "leg_risk_cost_cum": 0.0,
+        "missed_expected_carry_cum": 0.0,
+        "spread_saved_cum": 0.0
+      }
     },
     {
       "size_usd": 10000.0,
-      "equity": 9970.994466289414,
-      "net_pnl": -29.00553371058595,
-      "net_pnl_pct": -0.2900553371058595,
-      "apr_pct": -5.455272528688183,
-      "realized_pnl": -25.90380025520425,
-      "funding_income": 5.160416393979704,
+      "equity": 9970.74153580858,
+      "net_pnl": -29.25846419141999,
+      "net_pnl_pct": -0.2925846419141999,
+      "apr_pct": -5.49105337249445,
+      "realized_pnl": -25.781330736038576,
+      "funding_income": 5.266582190573703,
       "funding_cost": 0.0,
       "fees": 5.350765920420001,
       "started_at_ms": 1782969602395,
-      "last_ts_ms": 1784646362825,
+      "last_ts_ms": 1784649962909,
       "open_count": 2,
       "open_positions": [
         {
@@ -1899,11 +1936,6 @@
         }
       ],
       "equity_series": [
-        {
-          "ts_ms": 1783439941745,
-          "equity": 9962.57036275327,
-          "net_pnl": -37.429637246730636
-        },
         {
           "ts_ms": 1783443542346,
           "equity": 9962.645763328814,
@@ -3500,11 +3532,214 @@
           "net_pnl": -29.26406322522962
         },
         {
-          "ts_ms": 1784646362825,
-          "equity": 9970.994466289414,
-          "net_pnl": -29.00553371058595
+          "ts_ms": 1784649541778,
+          "equity": 9970.439207196307,
+          "net_pnl": -29.560792803693403
+        },
+        {
+          "ts_ms": 1784649962909,
+          "equity": 9970.74153580858,
+          "net_pnl": -29.25846419141999
         }
-      ]
+      ],
+      "trailing_7d_apr_pct": 2.253568867814797,
+      "variant_flags": [],
+      "maker": {
+        "orders_placed": 0,
+        "pairs_filled": 0,
+        "entries_missed": 0,
+        "entries_unwound": 0,
+        "leg_risk_cost_cum": 0.0,
+        "missed_expected_carry_cum": 0.0,
+        "spread_saved_cum": 0.0
+      }
+    },
+    {
+      "size_usd": 10001.0,
+      "equity": 10003.048913623988,
+      "net_pnl": 2.048913623988483,
+      "net_pnl_pct": 0.020487087531131716,
+      "apr_pct": null,
+      "realized_pnl": 0.22391309938918313,
+      "funding_income": 0.21567794569999998,
+      "funding_cost": 0.0,
+      "fees": 0.39983547540000003,
+      "started_at_ms": 1784648163406,
+      "last_ts_ms": 1784649962909,
+      "open_count": 2,
+      "open_positions": [
+        {
+          "leg_type": "cashcarry",
+          "symbol": "BLESSUSDT",
+          "base": "BLESS",
+          "spot_venue": "gate",
+          "qty": 53600.0,
+          "entry_price": 0.009339,
+          "required_cash": 1000.0843463584,
+          "ts_opened_ms": 1784648523284
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "PIPPINUSDT",
+          "base": "PIPPIN",
+          "spot_venue": "gate",
+          "qty": 29687.0,
+          "entry_price": 0.01685,
+          "required_cash": 1000.0888576770001,
+          "ts_opened_ms": 1784649422270
+        }
+      ],
+      "closed_recent": [],
+      "equity_series": [
+        {
+          "ts_ms": 1784649541778,
+          "equity": 10002.14110726724,
+          "net_pnl": 1.1411072672399314
+        },
+        {
+          "ts_ms": 1784649962909,
+          "equity": 10003.048913623988,
+          "net_pnl": 2.048913623988483
+        }
+      ],
+      "trailing_7d_apr_pct": null,
+      "variant_flags": [
+        "maker"
+      ],
+      "maker": {
+        "orders_placed": 2,
+        "pairs_filled": 2,
+        "entries_missed": 0,
+        "entries_unwound": 0,
+        "leg_risk_cost_cum": 0.0,
+        "missed_expected_carry_cum": 0.0,
+        "spread_saved_cum": 1.8973570845999577
+      }
+    },
+    {
+      "size_usd": 10002.0,
+      "equity": 9999.603886214285,
+      "net_pnl": -2.396113785714988,
+      "net_pnl_pct": -0.023956346587832314,
+      "apr_pct": null,
+      "realized_pnl": 0.19970683789044968,
+      "funding_income": 0.19061314272,
+      "funding_cost": 0.0,
+      "fees": 0.5956252235999999,
+      "started_at_ms": 1784648163406,
+      "last_ts_ms": 1784649962909,
+      "open_count": 2,
+      "open_positions": [
+        {
+          "leg_type": "cashcarry",
+          "symbol": "BLESSUSDT",
+          "base": "BLESS",
+          "spot_venue": "gate",
+          "qty": 53610.0,
+          "entry_price": 0.009321894609214698,
+          "required_cash": 1001.1954558600002,
+          "ts_opened_ms": 1784648222381
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "LABUSDT",
+          "base": "LAB",
+          "spot_venue": "gate",
+          "qty": 3742.0,
+          "entry_price": 0.13343695884553713,
+          "required_cash": 999.0353999872,
+          "ts_opened_ms": 1784649782301
+        }
+      ],
+      "closed_recent": [],
+      "equity_series": [
+        {
+          "ts_ms": 1784649541778,
+          "equity": 9999.95988100752,
+          "net_pnl": -2.04011899247962
+        },
+        {
+          "ts_ms": 1784649962909,
+          "equity": 9999.603886214285,
+          "net_pnl": -2.396113785714988
+        }
+      ],
+      "trailing_7d_apr_pct": null,
+      "variant_flags": [
+        "multi"
+      ],
+      "maker": {
+        "orders_placed": 0,
+        "pairs_filled": 0,
+        "entries_missed": 0,
+        "entries_unwound": 0,
+        "leg_risk_cost_cum": 0.0,
+        "missed_expected_carry_cum": 0.0,
+        "spread_saved_cum": 0.0
+      }
+    },
+    {
+      "size_usd": 10003.0,
+      "equity": 10005.049306092415,
+      "net_pnl": 2.049306092414554,
+      "net_pnl_pct": 0.020486914849690632,
+      "apr_pct": null,
+      "realized_pnl": 0.22395527101289747,
+      "funding_income": 0.21571857422,
+      "funding_cost": 0.0,
+      "fees": 0.3999131786,
+      "started_at_ms": 1784648163406,
+      "last_ts_ms": 1784649962909,
+      "open_count": 2,
+      "open_positions": [
+        {
+          "leg_type": "cashcarry",
+          "symbol": "BLESSUSDT",
+          "base": "BLESS",
+          "spot_venue": "gate",
+          "qty": 53610.0,
+          "entry_price": 0.009339,
+          "required_cash": 1000.2709292588399,
+          "ts_opened_ms": 1784648523284
+        },
+        {
+          "leg_type": "cashcarry",
+          "symbol": "PIPPINUSDT",
+          "base": "PIPPIN",
+          "spot_venue": "gate",
+          "qty": 29693.0,
+          "entry_price": 0.01685,
+          "required_cash": 1000.290984303,
+          "ts_opened_ms": 1784649422270
+        }
+      ],
+      "closed_recent": [],
+      "equity_series": [
+        {
+          "ts_ms": 1784649541778,
+          "equity": 10004.141326747485,
+          "net_pnl": 1.1413267474854365
+        },
+        {
+          "ts_ms": 1784649962909,
+          "equity": 10005.049306092415,
+          "net_pnl": 2.049306092414554
+        }
+      ],
+      "trailing_7d_apr_pct": null,
+      "variant_flags": [
+        "maker",
+        "multi"
+      ],
+      "maker": {
+        "orders_placed": 2,
+        "pairs_filled": 2,
+        "entries_missed": 0,
+        "entries_unwound": 0,
+        "leg_risk_cost_cum": 0.0,
+        "missed_expected_carry_cum": 0.0,
+        "spread_saved_cum": 1.8977232046399575
+      }
     }
   ]
 }
