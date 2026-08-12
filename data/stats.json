@@ -16,7 +16,7 @@
     "available_balance": 0.07,
     "account_im_rate": 0.0,
     "account_mm_rate": 0.0,
-    "total_available_balance": 0.07058445
+    "total_available_balance": 0.07183373
   },
   "daily_series": [],
   "open_positions": [],
@@ -32,7 +32,7 @@
   },
   "symbol_breakdown": [],
   "meta": {
-    "generated_at": "2026-08-11T16:05:06.725442+00:00",
+    "generated_at": "2026-08-12T00:03:53.650361+00:00",
     "version": "1.1.0"
   }
 }
